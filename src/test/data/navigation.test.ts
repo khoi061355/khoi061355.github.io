@@ -1,8 +1,8 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 
 import { navigation, sectionIds } from "../../data/navigation";
 import type { SectionId } from "../../types/portfolio";
-import { getEnabledNavigationItems } from "../../utils/scroll";
+import { getEnabledNavigationItems, scrollToSection } from "../../utils/scroll";
 
 const expectedSectionIds: SectionId[] = [
   "home",
@@ -67,3 +67,13 @@ describe("src/data/navigation.ts", () => {
     expect(visibleItems[0]?.id).toBe("home");
   });
 });
+
+ it("honors reduced motion when navigating between sections", () => {
+  const media = window.matchMedia('(prefers-reduced-motion: reduce)')
+  const preference = vi.spyOn(window, 'matchMedia').mockReturnValue({...media, matches: true})
+  const section = document.createElement('section'); section.id = 'projects';document.body.append(section)
+  const scroll = vi.spyOn(section, 'scrollIntoView')
+  scrollToSection('projects')
+  expect(scroll).toHaveBeenCalledWith({behavior:'auto'})
+  section.remove();preference.mockRestore();scroll.mockRestore()
+ })

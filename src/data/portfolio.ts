@@ -3,7 +3,7 @@ import { about } from "./about";
 import { awards } from "./awards";
 import { blog } from "./blog";
 import { certificates } from "./certificates";
-import { education } from "./education";
+import { education, academicHighlights } from "./education";
 import { experience } from "./experience";
 import { gallery } from "./gallery";
 import { journalPosts, writing } from "./journalPosts";
@@ -34,6 +34,7 @@ export const portfolio = {
 } satisfies Portfolio;
 
 export {
+  academicHighlights,
   about,
   awards,
   blog,

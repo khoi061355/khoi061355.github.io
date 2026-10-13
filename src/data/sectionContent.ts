@@ -1,78 +1,51 @@
-import type { SectionContent } from "../types/portfolio";
+import type { SectionContent } from '../types/portfolio'
 
-// Students can edit section headings and introductions here without changing components.
 export const sectionContent = {
-  about: {
-    eyebrow: "ABOUT_PROTOCOL",
-    title: "About Me",
-    description:
-      "I build robust data pipelines, meaningful educational products and lasting connections with others in hope of creating a more caring-through-sharing world.",
+  "about": {
+    "eyebrow": "A PERSONAL NOTE",
+    "title": "Curiosity, with a practical side.",
+    "description": "From the scale of a microorganism to the needs of a community, I like questions that connect science to everyday life."
   },
-  education: {
-    eyebrow: "EDU_TIMELINE",
-    title: "Education",
-    description:
-      "Before specialising in Computer Science, I enjoyed both social and natural science subjects. I believe all of them are interesting and fun to learn in their own unique ways.",
+  "projects": {
+    "eyebrow": "SELECTED WORK",
+    "title": "Questions worth exploring.",
+    "description": "Laboratory learning, environmental concepts and quantitative experiments—each a different way of asking what science can do."
   },
-  experience: {
-    eyebrow: "CAREER_LOG",
-    title: "Professional Experience",
-    description:
-      "Within Computer Science, I was fascinated by how Data elegantly connects multiple disciplines and as such, decided to pursue a career revolving entirely around this field.",
+  "education": {
+    "eyebrow": "ACADEMIC FOUNDATIONS",
+    "title": "A foundation in biology.",
+    "description": "A science-focused education, supported by quantitative thinking and a willingness to learn beyond the classroom."
   },
-  awards: {
-    eyebrow: "ACHIEVEMENT_LOG",
-    title: "Awards and Achievements",
-    description:
-      "My most significant achievements mostly orbited around academics and leadership, with some sprinkles of the performing arts, sports and outside competitions.",
+  "experience": {
+    "eyebrow": "LEARNING THROUGH PRACTICE",
+    "title": "In the lab. On the court. In the world.",
+    "description": "Research, enterprise and service have taught me to observe carefully, take responsibility and work with others."
   },
-  projects: {
-    eyebrow: "BUILD_LOGS",
-    title: "Selected Projects",
-    description:
-      "Unlike other Comp Sci students, I mostly enjoy acquiring knowledge through obtaining certificates rather than shipping products, so please excuse the lack of major personal projects outside of work ^^.",
+  "awards": {
+    "eyebrow": "RECOGNITION",
+    "title": "Milestones along the way.",
+    "description": "A selection of academic and sporting achievements, with supporting documents where available."
   },
-  gallery: {
-    eyebrow: "JOURNEY_FRAMES",
-    title: "Learning Journey",
-    description:
-      "Looking back, despite the ups and downs, the 12 years of learning and growth in Singapore have completely shaped who I am and I'm excited to see where this foundation will bring me to next.",
+  "skills": {
+    "eyebrow": "METHODS & INTERESTS",
+    "title": "Tools for asking better questions.",
+    "description": "Hands-on exposure and developing skills—from culture media to predictive models and science communication."
   },
-  journal: {
-    eyebrow: "JOURNAL_FEED",
-    title: "Journal",
-    description:
-      "Perhaps you can see by now, I have a burning passion for synthesising knowledge and sharing it with others. So here are the proofs.",
+  "gallery": {
+    "eyebrow": "THE EVIDENCE LIBRARY",
+    "title": "The work, with its receipts.",
+    "description": "Supporting documents for research, recognition and community involvement. Open a record to read the original evidence."
   },
-  skills: {
-    eyebrow: "SKILL_MATRIX",
-    title: "Technical Skills and Certifications",
-    description:
-      "There was a time when I was particularly into collecting new skillsets as if they were pokemons. However, they matter much less now and the only fun things are, to me, the very fundamentals.",
+  "journal": {
+    "eyebrow": "WRITING",
+    "title": "Thinking responsibly.",
+    "description": "Exploring the role of human judgment in emerging technology."
   },
-  contact: {
-    eyebrow: "CONTACT_INTERFACE",
-    title: "Contact Me",
-    description:
-      "With all of this personal information being shared online, I guess you can feel how open I am towards having a chat. So please don't hesitate to reach out!",
-  },
-} satisfies SectionContent;
+  "contact": {
+    "eyebrow": "WHAT COMES NEXT",
+    "title": "Keep the curiosity going.",
+    "description": "Interested in research, learning opportunities and the possibilities of biotechnology."
+  }
+} satisfies SectionContent
 
-// Shared visible subsection names follow the established Engineering wording.
-export const subsectionContent = {
-  journal: {
-    videosEyebrow: "VIDEO_FEED",
-    videosTitle: "Educational Videos",
-    writingEyebrow: "WRITING_LOG",
-    writingTitle: "Writing and Technical Notes",
-  },
-  skills: {
-    certificatesEyebrow: "CERTIFICATE_PREVIEW",
-    certificatesTitle: "Certificate Gallery",
-    certificatesDescription:
-      "Click any preview to expand the PDF. Files are configured in the shared certificate data file.",
-  },
-  contact: {
-    channelsTitle: "CONNECT_CHANNELS",
-  },
-} as const;
+export const subsectionContent = { journal: { videosEyebrow: 'Learning', videosTitle: 'Video', writingEyebrow: 'Writing', writingTitle: 'Responsible technology' }, skills: { certificatesEyebrow: 'Evidence', certificatesTitle: 'Supporting documents', certificatesDescription: 'Explore the Evidence Library for supporting records.' }, contact: { channelsTitle: 'Next steps' } } as const

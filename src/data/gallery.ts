@@ -1,60 +1,80 @@
-import photo1 from '../assets/photo_1.jpg'
-import photo2 from '../assets/photo_2.jpg'
-import photo3 from '../assets/photo_3.jpg'
-import photo4 from '../assets/photo_4.jpg'
-import photo5 from '../assets/photo_5.jpg'
-import photo6 from '../assets/photo_6.jpg'
-import photo7 from '../assets/photo_7.jpg'
+import evidence0 from '../assets/evidence/microbiology-internship.jpg'
+import evidence1 from '../assets/evidence/biology-olympiad.jpg'
+import evidence2 from '../assets/evidence/factory-tour.jpg'
+import evidence3 from '../assets/evidence/bewell-workshop.jpg'
+import evidence4 from '../assets/evidence/wellbeing-ambassador.jpg'
+import evidence5 from '../assets/evidence/academic-award.jpg'
 import type { GalleryItem } from '../types/portfolio'
 
 export const gallery = [
   {
-    id: 'zhonghua-secondary-school',
-    src: photo1,
-    alt: 'Gallery Image 1',
-    title: 'Zhonghua Secondary School',
-    description: "My first experience studying with local students in Singapore, where I eventually completed the GCE O-levels with 7 A's.",
+    "id": "research",
+    "src": evidence0,
+    "alt": "Institute of Microbiology and Biotechnology: Microbiology internship supporting document",
+    "title": "Microbiology internship",
+    "description": "Confirmation of the supervised internship from 10 June to 10 August 2026 and participation in laboratory research activities.",
+    "issuer": "Institute of Microbiology and Biotechnology",
+    "year": "2026",
+    "rotation": 0,
+    "additionalPages": []
   },
   {
-    id: 'saint-andrews-junior-college',
-    src: photo2,
-    alt: 'Gallery Image 2',
-    title: "Saint Andrew's Junior College",
-    description: "My next 2 years as a student there, where I also became a Student Councillor and completed the GCE A-levels with 6 A's.",
+    "id": "bbo",
+    "src": evidence1,
+    "aspectRatio": 1.3333333333,
+    "alt": "Highly Commended: British Biology Olympiad supporting document",
+    "title": "British Biology Olympiad",
+    "description": "Certificate of Highly Commended recognition in the 2026 British Biology Olympiad.",
+    "issuer": "Highly Commended",
+    "year": "2026",
+    "rotation": 180,
+    "additionalPages": []
   },
   {
-    id: 'national-university-of-singapore',
-    src: photo3,
-    alt: 'Gallery Image 3',
-    title: 'National University of Singapore',
-    description: "I was fortunate enough to receive 3 full-scholarship offers from NUS, NTU and SUTD. After careful ponderation, I chose to pursue a Bachelor's in Computer Science with Honours at NUS.",
+    "id": "factory",
+    "src": evidence2,
+    "aspectRatio": 1.3333333333,
+    "alt": "Sao Thai Duong factory visit: Science beyond the laboratory supporting document",
+    "title": "Science beyond the laboratory",
+    "description": "Confirmation of a learning visit on 19 June 2026, exploring production, quality management and scientific applications.",
+    "issuer": "Sao Thai Duong factory visit",
+    "year": "2026",
+    "rotation": -90,
+    "additionalPages": []
   },
   {
-    id: 'university-of-texas-at-austin',
-    src: photo4,
-    alt: 'Gallery Image 4',
-    title: 'The University of Texas at Austin',
-    description: "After completing undergraduate studies at NUS, my passion for Computer Science grew strong enough to warrant another academic pursuit at the University of Texas, Austin for a Master's Degree in Computer Science.",
+    "id": "bewell",
+    "src": evidence3,
+    "aspectRatio": 1.3333333333,
+    "alt": "Vinschool BeWell: Neuroscience through outreach supporting document",
+    "title": "Neuroscience through outreach",
+    "description": "Certificate for outstanding contribution to the 2023–2024 BeWell project, issued 31 May 2024.",
+    "issuer": "Vinschool BeWell",
+    "year": "2024",
+    "rotation": -90,
+    "additionalPages": []
   },
   {
-    id: 'sea-limited',
-    src: photo5,
-    alt: 'Gallery Image 5',
-    title: 'Sea Limited',
-    description: 'During my final year in NUS, I also landed an internship as a Big Data Analyst at Sea Limited - the parent company behind Shopee and Garena. After its completion, I received a return offer as a Data Engineer in the Core Data Platform team.',
+    "id": "wellbeing",
+    "src": evidence4,
+    "aspectRatio": 1.3333333333,
+    "alt": "Vinschool Metropolis: Wellbeing ambassador supporting document",
+    "title": "Wellbeing ambassador",
+    "description": "Recognition as a physical wellbeing ambassador for the 2024–2025 school year.",
+    "issuer": "Vinschool Metropolis",
+    "year": "2024–2025",
+    "rotation": -90,
+    "additionalPages": []
   },
   {
-    id: 'rakuten-asia',
-    src: photo6,
-    alt: 'Gallery Image 6',
-    title: 'Rakuten Asia Pte Ltd',
-    description: 'Hoping to gain a diverse range of skillsets and experiences, I ventured out and landed a role as a Software Engineer in Rakuten Asia, under the Global Ad Tech Supervisory Department.',
-  },
-  {
-    id: 'torilab',
-    src: photo7,
-    alt: 'Gallery Image 7',
-    title: 'Torilab',
-    description: 'Seeking an opportunity to return back home to Vietnam, I joined Torilab - an early-stage AI startup headquartered in Japan - as a Data Engineer under the Business Intelligence (BI) team.',
+    "id": "academics",
+    "src": evidence5,
+    "alt": "Grade 9 English competition: District academic recognition supporting document",
+    "title": "District academic recognition",
+    "description": "Consolation-prize certificate issued 20 November 2023 for the district English competition.",
+    "issuer": "Grade 9 English competition",
+    "year": "2023",
+    "rotation": -90,
+    "additionalPages": []
   }
 ] satisfies GalleryItem[]

@@ -1,47 +1,36 @@
-import nusLogo from '../assets/nus.png'
-import saLogo from '../assets/sa.png'
-import zhonghuaLogo from '../assets/zhonghua.jpg'
 import type { AwardEntry } from '../types/portfolio'
 
-export const awards: AwardEntry[] = [
+export const awards = [
   {
-    title: 'ASEAN Secondary Scholarship',
-    organization: "Zhonghua Secondary School - Saint Andrew's Junior College",
-    year: '2014 - 2018',
-    description: 'Full-ride scholarship for secondary and junior college education.',
-    logo: zhonghuaLogo,
-    tag: 'SCHOLARSHIP',
+    "title": "Highly Commended",
+    "organization": "British Biology Olympiad",
+    "year": "2026",
+    "description": "Recognition for applying biological principles to unfamiliar problems beyond the standard A-Level curriculum.",
+    "logoText": "BBO",
+    "tag": "Biology"
   },
   {
-    title: 'Singapore Youth Festival Choir - Silver Award',
-    organization: 'Zhonghua Secondary School',
-    year: '2015',
-    description: 'Received the Silver Award for choir performance at the Singapore Youth Festival.',
-    logo: zhonghuaLogo,
-    tag: 'ARTS',
+    "title": "Consolation prize · English",
+    "organization": "Ba Đình district Grade 9 competition",
+    "year": "2023",
+    "description": "Selected to represent the school in a district-level cultural and scientific subjects competition. The certificate identifies English as the subject.",
+    "logoText": "EN",
+    "tag": "Academics"
   },
   {
-    title: 'Model Student Award',
-    organization: "Saint Andrew's Junior College",
-    year: '2017',
-    description: 'Recognised for exemplary character and conduct as a model student.',
-    logo: saLogo,
-    tag: 'CHARACTER',
+    "title": "Hanoi Supercup champion",
+    "organization": "VietGoal · U15 Trung Văn",
+    "year": "2023",
+    "description": "Team captain; subsequent bronze medals in 2024 and 2025, as reported in the résumé.",
+    "logoText": "VG",
+    "tag": "Leadership"
   },
   {
-    title: 'ASEAN Undergraduate Scholarship',
-    organization: 'National University of Singapore',
-    year: '2018 - 2022',
-    description: 'Full-ride scholarship for undergraduate studies.',
-    logo: nusLogo,
-    tag: 'SCHOLARSHIP',
-  },
-  {
-    title: '1st Prize Team | AIxImpact Case Competition',
-    organization: 'QuantumBlack, a McKinsey company',
-    year: '2022',
-    description: 'Best project award in the AIxImpact healthcare case competition track.',
-    logo: nusLogo,
-    tag: 'COMPETITION',
-  },
-]
+    "title": "ProJET Season 1 champion",
+    "organization": "JunSport basketball tournament",
+    "year": "Date not specified",
+    "description": "Contributed rebounds and scoring plays to a basketball championship team, as reported in the résumé.",
+    "logoText": "PJ",
+    "tag": "Sport"
+  }
+] satisfies AwardEntry[]

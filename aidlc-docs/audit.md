@@ -15,6 +15,19 @@ using ai-dlc, create a reverse engineering docs for this project. Also, I want t
 **AI Response**: "Loaded AI-DLC common rules, scanned extensions opt-in files, detected brownfield React/Vite portfolio project, and started reverse engineering."
 **Context**: INCEPTION - Workspace Detection
 
+## Workspace Detection
+**Timestamp**: 2026-10-12T16:27:00Z
+**User Input**: "Start a new workflow for this customization and preserve the existing workflow (Recommended)"
+**AI Response**: "Started this customization as a separate AI-DLC workflow while preserving the existing Business Color and Two-Theme Refresh artifacts and status."
+**Context**: Workspace Detection; resolved session continuity.
+
+---
+## Workspace Detection
+**Timestamp**: 2026-10-12T16:24:58Z
+**User Input**: "using ai-dlc, help me customise a portfolio website for Lê Nguyên Khôi based on this Resume in assets and the Evidence Library folder, referencing current project structure where relevant while making it uniquely his and suit a Bioengineering, Biotech Entrepreneurship theme"
+**AI Response**: "Displayed the AI-DLC welcome message. Detected an existing brownfield React/Vite portfolio and an active AI-DLC workflow for a previous Business theme refresh; will clarify how to handle that workflow before starting the new customization."
+**Context**: Workspace detection; recorded raw request and existing workflow finding.
+
 ---
 
 ## Reverse Engineering
@@ -9012,6 +9025,153 @@ For the connect\_channels, please make the color consistent with other component
 **Context**: CONSTRUCTION - Code Generation Part 2 Review Gate
 
 ---
+## Requirements Analysis
+**Timestamp**: 2026-10-12T16:28:00Z
+**User Input**: "B) Use one dedicated bioengineering presentation"
+**AI Response**: "Recorded the decision to replace the two existing presentation modes with one dedicated bioengineering portfolio presentation; the shared portfolio content and site behavior remain subject to requirements review."
+**Context**: INCEPTION - Requirements Analysis, clarification Question 1.
+
+---
+## Requirements Analysis
+**Timestamp**: 2026-10-12T16:29:00Z
+**User Input**: "A) Bioengineering editorial: warm neutrals, botanical greens, scientific-journal feel"
+**AI Response**: "Recorded the bioengineering-editorial direction: warm neutrals, botanical greens, restrained scientific details, and a polished research-journal presentation."
+**Context**: INCEPTION - Requirements Analysis, clarification Question 2.
+
+---
+## Requirements Analysis
+**Timestamp**: 2026-10-12T16:30:00Z
+**User Input**: "use a placeholder first"
+**AI Response**: "Recorded the request to use a contact placeholder and added a follow-up question to distinguish neutral 'coming soon' copy from explicit replacement tokens; no real or borrowed contact details will be used."
+**Context**: INCEPTION - Requirements Analysis, clarification Question 3 follow-up.
+
+---
+## Requirements Analysis
+**Timestamp**: 2026-10-12T16:31:00Z
+**User Input**: "A) Neutral “Contact details coming soon” copy, with no fake address or clickable link (Recommended)"
+**AI Response**: "Recorded the neutral, non-clickable contact placeholder, without fabricated contact data."
+**Context**: INCEPTION - Requirements Analysis, clarification Question 6.
+
+---
+## Requirements Analysis
+**Timestamp**: 2026-10-12T16:32:00Z
+**User Input**: "B) No, skip it for this static content-focused change (Recommended)"
+**AI Response**: "Recorded Security Baseline as disabled for this change; no security rule file will be loaded or enforced."
+**Context**: INCEPTION - Requirements Analysis, Security Baseline extension opt-in.
+
+---
+## Requirements Analysis
+**Timestamp**: 2026-10-12T16:33:00Z
+**User Input**: "C) No, skip it for this UI/content-focused change (Recommended)"
+**AI Response**: "Recorded Property-Based Testing as disabled for this change; existing targeted tests and build checks will still be used."
+**Context**: INCEPTION - Requirements Analysis, Property-Based Testing extension opt-in.
+
+---
+## Requirements Analysis
+**Timestamp**: 2026-10-12T16:34:00Z
+**User Input**: "B) Remove Business implementation, selector support, and related tests"
+**AI Response**: "Recorded the scope decision to remove the Business presentation, public selector support, and associated tests, consolidating this site around a dedicated bioengineering presentation."
+**Context**: INCEPTION - Requirements Analysis, clarification Question 7.
+
+---
+## Requirements Analysis
+**Timestamp**: 2026-10-12T16:35:00Z
+**User Input**: "B) Nguyễn Lê Khôi, matching the Vietnamese name on the certificate"
+**AI Response**: "Recorded Nguyễn Lê Khôi as the exact public display name, following the user's selection despite the prompt's alternate spelling."
+**Context**: INCEPTION - Requirements Analysis, clarification Question 8.
+
+---
+## Requirements Analysis Completion Prompt
+**Timestamp**: 2026-10-12T16:35:00Z
+**User Input**: "N/A"
+**AI Response**: "Created the source-grounded requirements for a single bioengineering-editorial portfolio, removal of the Business presentation and stale portfolio-owner data, use of resume/Evidence Library material, a neutral contact placeholder, and preservation of relevant accessible/static-site behavior. Awaiting explicit requirements review."
+**Context**: INCEPTION - Requirements Analysis review gate.
+
+---
+## Requirements Analysis Approval
+**Timestamp**: 2026-10-12T16:36:00Z
+**User Input**: "A) Approve and continue to User Stories"
+**AI Response**: "Recorded approval of the Bioengineering Portfolio Requirements and proceeded to User Stories planning."
+**Context**: INCEPTION - Requirements Analysis approval.
+
+---
+## User Stories Planning
+**Timestamp**: 2026-10-12T16:37:00Z
+**User Input**: "N/A"
+**AI Response**: "Created the proposed reviewer, collaborator, and portfolio-author personas and six story outlines. Added one clarification question about whether the site's opening should emphasize research, venture-building, or both."
+**Context**: INCEPTION - User Stories Part 1: Planning.
+
+---
+## User Stories Planning
+**Timestamp**: 2026-10-12T16:38:00Z
+**User Input**: "A) Research-led, with entrepreneurship as a complementary strength (Recommended)"
+**AI Response**: "Recorded a research-led opening, with microbiology, diagnostics, and water-quality work introduced before the complementary venture story."
+**Context**: INCEPTION - User Stories Part 1: Content emphasis clarification.
+
+---
+## User Story Plan Approval Prompt
+**Timestamp**: 2026-10-12T16:38:00Z
+**User Input**: "N/A"
+**AI Response**: "Presented the proposed personas and six research-led portfolio stories for approval before generating detailed stories and personas."
+**Context**: INCEPTION - User Stories Part 1 review gate.
+
+---
+## User Story Plan Approval
+**Timestamp**: 2026-10-12T16:39:00Z
+**User Input**: "A) Approve and generate the detailed stories and personas"
+**AI Response**: "Recorded approval of the research-led story plan and generated detailed visitor and portfolio-author stories with personas."
+**Context**: INCEPTION - User Stories Part 1 approval and Part 2 generation.
+
+---
+## User Stories Completion Prompt
+**Timestamp**: 2026-10-12T16:39:00Z
+**User Input**: "N/A"
+**AI Response**: "Generated seven stories and three personas covering research identity, accurate laboratory experience, solution-building and entrepreneurship, education and evidence, accessible navigation, honest contact status, and future content maintenance. Awaiting review of the generated stories and personas."
+**Context**: INCEPTION - User Stories Part 2 review gate.
+
+---
+## User Stories Approval
+**Timestamp**: 2026-10-12T16:40:00Z
+**User Input**: "A) Approve and continue to Workflow Planning"
+**AI Response**: "Recorded approval of the seven portfolio user stories and three personas; completed the User Stories stage and proceeded to Workflow Planning."
+**Context**: INCEPTION - User Stories Part 2 approval.
+
+---
+## Workflow Planning
+**Timestamp**: 2026-10-12T16:42:00Z
+**User Input**: "N/A"
+**AI Response**: "Created a single-unit plan for the source-grounded portfolio update, Business-template removal, accessible editorial styling, documentation refresh, and full quality verification. Noted that older reverse-engineering docs conflict with current source and that historical audit/prior-workflow artifacts must remain preserved."
+**Context**: INCEPTION - Workflow Planning.
+
+---
+## Workflow Planning Approval Prompt
+**Timestamp**: 2026-10-12T16:42:00Z
+**User Input**: "N/A"
+**AI Response**: "Presented the execution plan for review; no implementation changes have started."
+**Context**: INCEPTION - Workflow Planning review gate.
+
+---
+## Workflow Planning Approval
+**Timestamp**: 2026-10-12T16:43:00Z
+**User Input**: "A) Approve and continue to Code Generation planning"
+**AI Response**: "Recorded approval of the single-unit workflow plan and began Code Generation Part 1 planning."
+**Context**: INCEPTION - Workflow Planning approval.
+
+---
+## Code Generation Part 1 - Planning
+**Timestamp**: 2026-10-12T16:44:00Z
+**User Input**: "N/A"
+**AI Response**: "Inspected the current template, selector, content, test, and asset boundaries. Created a twelve-step implementation plan including replacement of prior personal content/assets, a single Bioengineering template, original schematic illustrations, an honest contact placeholder, and regression/documentation updates."
+**Context**: CONSTRUCTION - Code Generation Part 1.
+
+---
+## Code Generation Plan Approval Prompt
+**Timestamp**: 2026-10-12T16:44:00Z
+**User Input**: "N/A"
+**AI Response**: "Presented the detailed Code Generation plan for approval. Generation has not started."
+**Context**: CONSTRUCTION - Code Generation Part 1 review gate.
+
+---
 
 ## Business Color and Two-Theme Refresh - Code Generation Approval
 
@@ -9180,5 +9340,289 @@ For the connect\_channels, please make the color consistent with other component
 **User Input**: "N/A"
 **AI Response**: "Returned to the standardized Code Generation review gate after completing and verifying all eighteen implementation steps. Awaiting Request Changes or Continue to Next Stage before the final Build and Test rerun."
 **Context**: CONSTRUCTION - Code Generation Part 2 Review Gate
+
+---
+## Code Generation Plan Approval
+**Timestamp**: 2026-10-12T17:49:06Z
+**User Input**: "approve"
+**AI Response**: "Recorded approval of the Bioengineering Portfolio Code Generation plan and started the approved single-unit implementation."
+**Context**: CONSTRUCTION - Code Generation Part 1 approval; proceed to Part 2.
+
+---
+
+## Bioengineering Portfolio Customization - Code Generation Complete and Review Gate
+**Timestamp**: 2026-10-12T18:36:28Z
+**User Input**: "N/A"
+**AI Response**: "Completed the approved Bioengineering portfolio implementation and refreshed the active architecture, component, code-structure, and code-generation summary documents. Verified 32 tests across 6 files, ESLint, the TypeScript/Vite production build, desktop and mobile rendering, theme and mobile-menu behavior, all five illustrations, the non-clickable contact placeholder, and the resume asset response. The build retains a non-blocking warning for a JavaScript chunk above 500 kB. Code Generation is awaiting explicit user review; Build and Test remains pending."
+**Context**: CONSTRUCTION - Code Generation Part 2 completion and review gate
+
+## Code Generation Review Approval
+**Timestamp**: 2026-10-13T11:04:47Z
+**User Input**: "please resume and continue"
+**AI Response**: "Recorded this as approval of the Code Generation review gate and advanced the active workflow to Build and Test."
+**Context**: CONSTRUCTION - Code Generation review approval
+
+## Build and Test Stage Start
+**Timestamp**: 2026-10-13T11:04:47Z
+**Build Status**: In progress
+**Test Status**: In progress
+**Context**: CONSTRUCTION - Build and Test stage
+
+---
+
+## Portfolio Restart — Workspace Detection and Requirements
+**Timestamp**: 2026-10-13T11:10:24Z
+**User Input**: "please revoke all current code changes from the other model and help me with the following:
+
+using ai-dlc, help me customise a portfolio website for Lê Nguyên Khôi based on this Resume in assets and the Evidence Library folder, referencing current project structure where relevant while making it uniquely his and suit a Bioengineering, Biotech Entrepreneurship theme"
+**AI Response**: "Inspected workflow and current changes, displayed the complete AI-DLC welcome, used Sites local portfolio guidance, backed up prior work, restored 105 tracked files except audit, removed six generated visuals, retained source documents and historical artifacts, extracted résumé text, inspected three evidence images, verified two-template architecture, and prepared requirements questions. Baseline build launched. New implementation waits for requirements answers under the user-supplied AI-DLC gate."
+**Context**: INCEPTION — restarted at explicit user request. Optional extensions remain disabled by retained decisions; skip logged.
+
+---
+
+## Requirements Answer Gate
+**Timestamp**: 2026-10-13T11:10:24Z
+**User Input**: "N/A"
+**AI Response**: "Rollback complete and sources preserved. Please fill in Questions 1–4 in aidlc-docs/inception/requirements/portfolio-restart-questions.md; Questions 5–6 retain prior optional-extension decisions. AI-DLC requirements-analysis.md states: DO NOT proceed to Step 7 until all questions are answered and validated. Await answers before writing final requirements or implementation."
+**Context**: Required answer gate, not implementation approval.
+
+---
+
+## Portfolio Restart — Baseline Verification
+**Timestamp**: 2026-10-13T11:10:34Z
+**User Input**: "N/A"
+**AI Response**: "Restored baseline production build passed. git diff confirms no tracked application-code changes remain under src, public, index.html or README.md. Vite reports an existing large JavaScript chunk warning. A separate build-instructions documentation change appeared during this turn; application rollback remains verified."
+**Context**: Rollback verification complete; requirements answer gate remains pending.
+
+---
+
+## Portfolio Restart — Requirements Answers
+**Timestamp**: 2026-10-13T11:21:58Z
+**User Input**: "approve and continue"
+**AI Response**: "Read the completed questions file: A, A, A, Combine A and B, B, C. Preserved the explicit custom evidence answer as C with its complete meaning: summaries and illustrations plus readable certificate previews. Generated requirements with source limits, acceptance criteria and extension compliance. No application code changed. Corrected the initial commentary assumption that scans would remain private; the actual file answer authorizes previews."
+**Context**: INCEPTION — answers received and validated; generated requirements review remains separate.
+
+### Complete question-file input at receipt
+
+# Portfolio Restart — Requirements Questions
+
+The previous model's implementation has been reverted to the initial committed foundation. Original sources and audit history are retained. Use Lê Nguyên Khôi as explicitly requested; the résumé and certificates use Nguyen Le Khoi / Nguyễn Lê Khôi. This discrepancy will remain documented.
+
+Please fill in each blank [Answer]: tag. Previously recorded extension decisions are retained below and can be changed.
+
+## Question 1 — Primary audience
+Who should the portfolio primarily serve?
+
+A) University admissions and research mentors, with entrepreneurship as a supporting thread (Recommended)
+B) Biotech collaborators and venture opportunities, with research as the foundation
+C) Other (describe after [Answer]:)
+
+[Answer]: A
+
+## Question 2 — Visual direction
+Which direction should shape the new design?
+
+A) Scientific editorial: warm ivory, deep green, specimen-inspired diagrams and research case studies; an entrepreneurial thread throughout (Recommended; retains the earlier recorded preference)
+B) Biotech venture studio: dark ink, bright green, bold typography and a more product-oriented presentation
+C) Other (describe after [Answer]:)
+
+[Answer]: A
+
+## Question 3 — Existing template structure
+How should the restored Engineering and Business templates be used?
+
+A) Build one dedicated portfolio using the useful existing components and data structure; remove the alternate presentation and selector (Recommended; retains the earlier recorded preference)
+B) Retain both presentations and customize both for Khôi
+C) Other (describe after [Answer]:)
+
+[Answer]: A
+
+## Question 4 — Evidence presentation
+How should the supplied Evidence Library appear on the public website?
+
+A) Use it to verify copy; show concise evidence summaries and original illustrations, keeping document scans out of the public site (Recommended; retains earlier scope)
+B) Include readable certificate previews alongside research, awards and community entries
+C) Other (describe after [Answer]:)
+
+[Answer]: Combine A and B
+
+## Question 5 — Security Extensions
+Should security extension rules be enforced for this project?
+
+A) Yes — enforce all SECURITY rules as blocking constraints (recommended for production-grade applications)
+B) No — skip all SECURITY rules (suitable for PoCs, prototypes, and experimental projects)
+X) Other (describe after [Answer]:)
+
+[Answer]: B
+
+Retained from the prior recorded Requirements Analysis decision; no full extension rule file has been loaded.
+
+## Question 6 — Property-Based Testing Extension
+Should property-based testing (PBT) rules be enforced for this project?
+
+A) Yes — enforce all PBT rules as blocking constraints (recommended for projects with business logic, data transformations, serialization, or stateful components)
+B) Partial — enforce PBT rules only for pure functions and serialization round-trips (suitable for projects with limited algorithmic complexity)
+C) No — skip all PBT rules (suitable for simple CRUD applications, UI-only projects, or thin integration layers with no significant business logic)
+X) Other (describe after [Answer]:)
+
+[Answer]: C
+
+Retained from the prior recorded Requirements Analysis decision; no full extension rule file has been loaded.
+
+## Working assumptions
+
+- English portfolio copy with the requested accented Vietnamese display name.
+- Contact details coming soon, with no invented email or reused previous-owner channels; retained from the earlier recorded contact decision.
+- Preserve React, TypeScript, Vite, typed src/data modules, responsive navigation and GitHub Pages compatibility.
+- Lead with microbiology research and the water-management challenge concept. Connect computational modelling, responsible AI, TheHoopHub, neuroscience outreach and sports leadership to the broader story.
+- Describe the water-management work as a challenge project/concept unless implementation evidence establishes more. Attribute football-model metrics to the résumé, rather than independently validated results.
+- Biotech entrepreneurship is an interest and intended direction. TheHoopHub is the documented sports-retail venture.
+- Omit blank résumé fields, unsupported venture claims and unrelated previous-owner content.
+- This workflow prepares local changes; publication is outside the current scope.
+
+
+---
+
+## Portfolio Restart — Requirements Review Prompt
+**Timestamp**: 2026-10-13T11:21:58Z
+**User Input**: "N/A"
+**AI Response**: "Requirements Analysis Complete. Review aidlc-docs/inception/requirements/portfolio-restart-requirements.md. Request Changes, or Approve & Continue to User Stories. Both optional extensions are N/A because disabled. The user-supplied AI-DLC Requirements Analysis Step 9 requires explicit review approval before proceeding."
+**Context**: Required generated-document approval gate.
+
+---
+
+## Portfolio Restart — Requirements Approval and User Stories Planning
+**Timestamp**: 2026-10-13T11:32:00Z
+**User Input**: "approve and continue"
+**AI Response**: "Recorded explicit approval of the generated requirements, completed the workspace-plan approval checkbox, assessed User Stories as valuable, and created the eight-outcome story-generation plan. No new factual clarification is necessary because approved requirements establish personas, evidence treatment and scope. Stories and personas are pending approach approval."
+**Context**: INCEPTION — User Stories Part 1. Disabled extensions skipped; compliance N/A.
+
+---
+
+## Portfolio Restart — User Stories Approach Review Prompt
+**Timestamp**: 2026-10-13T11:32:00Z
+**User Input**: "N/A"
+**AI Response**: "Requirements approved. The story plan proposes eight focused outcomes covering research, academics, enterprise, evidence previews, navigation and maintenance. Please review aidlc-docs/inception/plans/portfolio-restart-story-generation-plan.md and choose Approve & Continue or Request Changes. The user-supplied AI-DLC user-stories.md states: User must approve plan before generation starts."
+**Context**: Explicit plan approval required before User Stories Part 2.
+
+---
+
+## Portfolio Restart — User Stories Approach Approval
+**Timestamp**: 2026-10-13T11:40:10Z
+**User Input**: "approve and continue"
+**AI Response**: "Recorded explicit approval of option A, the journey-based story approach, proposed outcomes and acceptance-criteria format. Validated the response as unambiguous and loaded the approved generation plan and requirements."
+**Context**: INCEPTION — User Stories Part 2 authorized; disabled extensions skipped.
+
+---
+
+## Portfolio Restart — User Stories Generation and Review Prompt
+**Timestamp**: 2026-10-13T11:40:10Z
+**User Input**: "N/A"
+**AI Response**: "Generated eight stories and four personas using the approved journey-based approach, mapped all FR/NFR/AC requirements, reviewed INVEST and factual boundaries, validated content before writing, and updated every completed plan checkbox. Implementation checkboxes remain unchecked because no application code was generated. User Stories Complete. Review portfolio-restart-stories.md and portfolio-restart-personas.md under aidlc-docs/inception/user-stories/. Request Changes or Approve & Continue to Workflow Planning. The requested AI-DLC user-stories.md rule requires explicit approval of generated stories before proceeding."
+**Context**: INCEPTION — User Stories generated-artifact review. Security Baseline and PBT are N/A because disabled.
+
+---
+
+## Portfolio Restart — User Stories Approval
+**Timestamp**: 2026-10-13T11:50:00Z
+**User Input**: "approve and continue"
+**AI Response**: "Recorded approval of eight generated stories and four personas. Inspected existing gallery, certificate views, routing and template contracts; reused prior requirements and foundation context; prepared workflow scope and stage decisions."
+**Context**: INCEPTION — Workflow Planning.
+
+---
+
+## Portfolio Restart — Workflow Validation and Review
+**Timestamp**: 2026-10-13T11:50:00Z
+**User Input**: "N/A"
+**AI Response**: "Initial restricted Mermaid validator rejected an identifier-only reference; regenerated explicit declarations and validated successfully before file creation. Workflow Planning Complete. Review aidlc-docs/inception/plans/portfolio-restart-execution-plan.md. Recommend one frontend unit reusing existing sections/data/evidence views, then Code Generation and Build and Test. Skip separate design/decomposition/infrastructure stages with documented rationale. Request Changes, Add Skipped Stages, or Approve & Continue to Code Generation planning. AI-DLC workflow-planning.md requires approval before proceeding."
+**Context**: Execution-plan approval pending. State and completed plan checkboxes updated. Disabled Security Baseline and PBT skipped, compliance N/A.
+
+---
+
+## Portfolio Restart — Workflow Approval and Code Generation Planning
+**Timestamp**: 2026-10-13T12:28:40Z
+**User Input**: "approve and continue"
+**AI Response**: "Recorded execution-plan approval, including recommended conditional-stage skips, and advanced to CONSTRUCTION Code Generation Part 1. Inspected source/data/route/template contracts, current file inventory and local-preview rules; created the ten-step code-generation plan with exact paths and story mappings. No application implementation performed before plan approval."
+**Context**: Plan preparation complete; optional extensions disabled and skipped, compliance N/A.
+
+---
+
+## Portfolio Restart — Code Generation Plan Review Prompt
+**Timestamp**: 2026-10-13T12:28:40Z
+**User Input**: "N/A"
+**AI Response**: "Code Generation plan prepared for portfolio-restart: ten steps covering source review, evidence/vector assets, typed content, one-presentation cleanup, scientific editorial UI, accessible evidence previews, responsive identity styling, obsolete-content cleanup, tests/build and maintenance documentation. Review aidlc-docs/construction/plans/portfolio-restart-code-generation-plan.md. Request Changes, or Approve & Continue to implementation. The requested AI-DLC code-generation.md requires explicit approval covering the entire plan and generation sequence."
+**Context**: Explicit full-plan approval required before Part 2 generation. State and plan checkboxes updated.
+
+---
+
+## Portfolio Restart — Code Generation Approval
+**Timestamp**: 2026-10-13T14:33:54Z
+**User Input**: "approve and continue"
+**AI Response**: "Recorded explicit approval of the entire ten-step Code Generation sequence and began source inspection. Optional extensions remain disabled and are skipped. Implementation stays local and preserves the supplied source files."
+**Context**: CONSTRUCTION — Code Generation Part 2.
+
+---
+
+## Portfolio Restart — Code Generation Implementation and Verification
+**Timestamp**: 2026-10-13T14:58:53Z
+**User Input**: "N/A"
+**AI Response**: "Completed all ten approved code steps and all eight stories; updated checkboxes in the same implementation turn. Inspected all evidence, discovered the supposed EthicsAI paper PDF is a service certificate, and used résumé-derived writing copy with accurate source labeling. Built dedicated editorial sections, five original SVGs, eight evidence records with ten image pages, keyboard-accessible Chakra previews, source résumé download and neutral contact. Removed old template/selector/sample content/assets. All eleven copied evidence files match originals by SHA-256. 32 tests across eight files, lint, production build and diff checks passed. Browser checks confirmed 1440/390 layouts and all nine chapters at 320 pixels, Enter/Escape/focus restoration, correct preview orientation, résumé HTTP 200 and no captured runtime exceptions. Corrected observed dialog styling, narrow awards overflow, chapter scroll reset and reduced-motion scrolling. Vite retains a non-blocking 667.47-kB JS chunk warning; no deployment or push."
+**Context**: CONSTRUCTION — Code Generation Part 2. Source clarification recorded; disabled extensions skipped, compliance N/A.
+
+---
+
+## Portfolio Restart — Code Generation Review Prompt
+**Timestamp**: 2026-10-13T14:58:53Z
+**User Input**: "N/A"
+**AI Response**: "Code Generation Complete — portfolio-restart. The local portfolio now has a scientific editorial design, source-grounded content, original illustrations, evidence summaries/previews, original résumé and honest contact placeholder. Review application code at /Users/nhamhhung/khoi061355.github.io and documentation at aidlc-docs/construction/portfolio-restart/code/. Request Changes, or Continue to Next Stage to approve code and proceed to Build and Test. The requested code-generation.md requires explicit generated-code approval before proceeding."
+**Context**: Standard two-option Code Generation review; formal Build and Test awaits approval.
+
+---
+
+## Portfolio Restart — Final Code Verification and Teardown
+**Timestamp**: 2026-10-13T15:00:25Z
+**User Input**: "N/A"
+**AI Response**: "Removed an inferred ProJET award year because the résumé supplies a participation period but no championship date. Final rerun passed 32 tests, lint and production build; JS is 667.48 kB / 195.60 kB gzip with the retained bundle warning. Diff whitespace check passed, all code-plan checkboxes are complete, and task-owned Vite/isolated Chrome sessions were stopped. Desktop/mobile screenshots remain in /private/tmp for review. Code Generation awaits Request Changes or Continue to Next Stage under the requested AI-DLC review gate."
+**Context**: CONSTRUCTION — Code Generation complete, review pending. No deployment or push.
+
+---
+
+## Portfolio Restart — Three Design Preview Request
+**Timestamp**: 2026-10-13T15:10:38Z
+**User Input**: "what are the other themes that you can create, can you allow me to preview 3 options to pick out the best?"
+**AI Response**: "Accepted this as an explicit generated-code revision under the existing Code Generation review gate. Added review-revision steps 11–14 to the code plan. Prepare Scientific Editorial, Biotech Venture Studio and Research Atlas with shared source-grounded content, a temporary query-enabled comparison selector and local screenshots. No final choice or publication is inferred."
+**Context**: CONSTRUCTION — user-requested review changes. Disabled extensions skipped, compliance N/A.
+
+---
+
+## Portfolio Restart — Three Preview Options Ready
+**Timestamp**: 2026-10-13T15:17:58Z
+**User Input**: "N/A"
+**AI Response**: "Implemented Scientific Editorial, Biotech Venture Studio and Research Atlas as distinct query-enabled visual previews over shared content. Added accessible three-option controls, URL selection and root palette tokens that include portaled evidence. XML-validated two original SVG variants. 39 tests across eight files, lint and production build passed. Browser desktop/mobile screenshots were captured using consistent full-page layout; each option fits 320 pixels, evidence dialogs open with correct colors, selection updates the URL, and no runtime exceptions were captured. Recorded selection choices and updated plan checkboxes/docs/state. Retaining the local preview server for the user-requested interactive comparison while stopping the isolated QA browser. No final design choice, push or publication inferred."
+**Context**: CONSTRUCTION — requested review revision complete. Security Baseline/PBT disabled, compliance N/A. Final design selection pending.
+
+---
+
+## Portfolio Restart — Venture Studio Selection and Refinement
+**Timestamp**: 2026-10-13T15:38:32Z
+**User Input**: "the biotech venture studio is much nicer, please choose that and fix any issue with misaligned texts, as well as making the pictures more easy to understand and obvious. Please also make the key profile information like grades more emphasized. Then, remove the last 2 evidence "
+**AI Response**: "Recorded Biotech Venture Studio selection and explicit requested review changes. Attached screenshots show cropped/unclear cell, sensor and shop illustrations and the final 2025/2026 community evidence entries. Added plan steps 15–18: default design, academic emphasis, clearer uncropped vector diagrams, text alignment and removal of those two public records while preserving sources."
+**Context**: CONSTRUCTION — authorized review revision. Optional extensions disabled, compliance N/A.
+
+---
+
+## Portfolio Restart — Venture Studio Refinement Complete
+**Timestamp**: 2026-10-13T15:47:41Z
+**User Input**: "N/A"
+**AI Response**: "Made Biotech Venture Studio the public default and recorded design answer B. Added shared source-backed GPA/AS Level/SAT/IELTS highlights to Hero and Education. Redrew project SVGs with recognizable labeled workflows, XML-validated all art, and changed image frames from cover/crop to contain/full aspect ratio. Aligned project text/captions and evidence headings and corrected document-thumbnail framing. Removed public community-2025/community-2026 evidence records/imports, preserving originals. 40 tests across eight files, lint and production build passed. Browser confirmed default design, academic values, six evidence records, full image aspect ratios and all nine sections without 320-pixel overflow; no runtime exceptions. Updated docs, state and all plan checkboxes. Retaining local preview for review and stopping task-owned QA Chrome."
+**Context**: CONSTRUCTION — requested Code Generation changes complete. Security Baseline/PBT disabled, compliance N/A.
+
+---
+
+## Portfolio Restart — Revised Code Review Prompt
+**Timestamp**: 2026-10-13T15:47:41Z
+**User Input**: "N/A"
+**AI Response**: "Review the updated portfolio at http://127.0.0.1:4174/. Request Changes or Continue to Next Stage to approve revised Code Generation and proceed to formal Build and Test. This review remains required by the requested AI-DLC code-generation.md rule."
+**Context**: Standard two-option Code Generation review; no deployment or push.
 
 ---

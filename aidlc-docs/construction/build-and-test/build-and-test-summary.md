@@ -2,52 +2,51 @@
 
 ## Outcome
 
-The template-first beginner README and mode-specific Business Direct Contact color update pass all automated quality gates. No dependency, route, asset, data model, or deployment workflow changed.
+The Bioengineering portfolio customization passes the current automated checks and production-preview smoke checks.
 
 ## Build Status
 
-- **Build tool**: TypeScript 5.9 and Vite 7 through `npm run build`
-- **Status**: Success
-- **Build time**: Approximately 6.00 seconds on the verification machine
-- **Artifacts**: Static entry point, JavaScript, CSS, images, resume, and certificates under `dist/`
-- **Preview**: HTTP 200 for `/` on the local production preview
+- **Build command**: `npm run build` (`tsc -b && vite build`)
+- **Result**: Passed
+- **Build time**: 3.79 seconds
+- **Artifacts**: `dist/index.html`, bundled JavaScript and CSS, and the downloadable resume under `dist/`
+- **Preview**: HTTP 200 for `/`
+- **Warning**: JavaScript bundle is 756.12 kB minified (232.25 kB gzip), above Vite's 500 kB advisory threshold; this is non-blocking.
 
-## Verified Results
+## Automated Test Results
 
-| Check                           | Result                                         |
-| ------------------------------- | ---------------------------------------------- |
-| Focused README/contact tests    | 18 tests across 2 files passed                 |
-| Complete Vitest suite           | 88 tests across 9 files passed                 |
-| Unit-oriented test group        | 49 tests across 6 files passed                 |
-| Rendered integration group      | 39 tests across 3 files passed                 |
-| ESLint                          | Passed                                         |
-| TypeScript and Vite build       | Passed                                         |
-| Local production preview        | HTTP 200                                       |
-| Main JavaScript                 | 975.76 kB minified; 296.49 kB gzip             |
-| Main CSS                        | 34.61 kB minified; 7.43 kB gzip                |
-| Complete `dist/`                | Approximately 9.4 MB including images and PDFs |
-| Prettier and `git diff --check` | Passed                                         |
-| Non-audit stale-reference scan  | Passed with no matches                         |
+| Check | Result |
+| --- | --- |
+| Complete Vitest suite | 32 passed; 0 failed across 6 files |
+| Rendered App test | 8 passed in `src/App.test.tsx` |
+| ESLint | Passed with no warnings |
+| TypeScript production check | Passed |
+| `git diff --check` | Passed |
 
-The existing Vite warning for a JavaScript chunk above 500 kB remains non-blocking.
+Coverage reporting is not configured.
+
+## Preview and Responsive Checks
+
+- Correct document title and Bioengineering identity rendered.
+- Narrow inspected viewport: 312 CSS pixels; document width also 312 pixels, with no horizontal overflow.
+- All five hero/project illustrations loaded.
+- “Contact details coming soon” placeholder was visible.
+- Resume asset returned HTTP 200.
+- Mobile menu toggle opened and could be dismissed with Escape.
+- Color mode changed from light to dark and back.
+- The active GitHub Pages workflow was not modified; it continues to set the base path and publish `dist/`.
 
 ## Test Category Status
 
-| Category             | Status | Rationale                                                           |
-| -------------------- | ------ | ------------------------------------------------------------------- |
-| Unit                 | Pass   | 49 deterministic tests passed                                       |
-| Integration          | Pass   | 39 rendered component and application tests passed                  |
-| Static performance   | Pass   | Build output recorded and local preview returned HTTP 200           |
-| End-to-end browser   | N/A    | No dedicated browser automation is configured                       |
-| Contract             | N/A    | The static application has no service or API contract               |
-| Load and stress      | N/A    | The application has no runtime server                               |
-| Security penetration | N/A    | No new authentication, authorization, or network boundary was added |
-
-## Scope Validation
-
-- `README.md` now follows an ordered account-to-live-site journey with template creation, collaborator access, Pages, local editing, safe push, and deployment verification.
-- The light Business contact card uses the same primary pair as the Send message button; dark mode uses a deep surface, near-white text, and accessible blue control highlights.
-- Engineering presentation, content, assets, routes, and GitHub Pages workflow remain unchanged.
+| Category | Status | Notes |
+| --- | --- | --- |
+| Unit and component tests | Pass | 32 tests across 6 files |
+| Rendered application integration | Pass | `src/App.test.tsx` passed 8 tests; browser smoke check passed |
+| Static performance | Pass with advisory | Build and preview passed; JS chunk warning remains |
+| API/contract tests | N/A | No API or service boundary exists |
+| Load/stress tests | N/A | Static site has no application server |
+| Automated end-to-end suite | N/A | No dedicated browser automation is configured |
+| Security penetration tests | N/A | No new authentication or network boundary was introduced; Security Baseline extension is disabled |
 
 ## Reproduce
 
@@ -56,10 +55,11 @@ npm ci
 npm test
 npm run lint
 npm run build
+npm run preview -- --host 127.0.0.1
 ```
 
 ## Overall Status
 
 - **Build**: Success
-- **All applicable tests**: Pass
-- **Ready for Operations review**: Yes
+- **Applicable tests**: Pass
+- **Ready for Operations review**: Yes; awaiting the user's Build and Test review before any further workflow stage

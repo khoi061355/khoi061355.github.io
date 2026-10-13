@@ -1,51 +1,34 @@
 # Performance Test Instructions
 
-## Purpose
+## Scope
 
-Track build output and browser-delivery risks appropriate to a static GitHub Pages portfolio. Server load, throughput, concurrent-user, and API stress testing are not applicable because the project has no application server or API.
+The portfolio is a static GitHub Pages site with no application server, API, database, or user-specific runtime workload. Validate production build output and local asset delivery; load, stress, concurrency, throughput, and autoscaling tests do not apply.
 
-## Performance Requirements
+## Static Build Measurement
 
-- The production build must complete successfully.
-- Decorative theme work must not add a large external download or materially regress startup size.
-- The built entry page and assets must be servable from the local production preview.
-- Background decoration must remain CSS-based, pointer-inert, and free of scroll-linked processing.
-
-## Execute the Static Performance Check
+Run:
 
 ```bash
 npm run build
 ```
 
-Record the JavaScript and CSS sizes printed by Vite and compare them with the current baseline.
+Record the build duration and JavaScript/CSS sizes reported by Vite. The verified snapshot for this change is:
 
-## Verified Baseline
+| Measure | Result |
+| --- | --- |
+| Vite build time | 3.79 seconds |
+| JavaScript bundle | 756.12 kB minified; 232.25 kB gzip |
+| CSS bundle | 12.21 kB minified; 3.71 kB gzip |
+| Preview response | HTTP 200 for `/` |
 
-| Measure          | Observed result                                            |
-| ---------------- | ---------------------------------------------------------- |
-| Vite build time  | Approximately 6.00 seconds on the verification machine     |
-| Main JavaScript  | 975.76 kB minified; 296.49 kB gzip                         |
-| Main CSS         | 34.61 kB minified; 7.43 kB gzip                            |
-| Complete `dist/` | Approximately 9.4 MB including images and PDF certificates |
-| Preview response | HTTP 200 for `/` on the local Vite production preview      |
+Vite reports the JavaScript chunk above its 500 kB advisory threshold. The production build succeeds; the warning is tracked and non-blocking.
 
-The main JavaScript remains above Vite's 500 kB warning threshold. This is a tracked, non-blocking warning; the current bundle is smaller than the previous recorded baseline.
+## Delivery Smoke Check
 
-## Optional Browser Measurement
-
-For a future performance-focused change, run Lighthouse against `npm run preview` and record mobile performance, accessibility, and largest-contentful-paint results on the same machine and network profile. No Lighthouse threshold is claimed for this change because a controlled browser performance run was not part of the approved scope.
-
-## Optimization Candidates if the Baseline Regresses
-
-1. Split theme code with dynamic imports.
-2. Compress the largest local images.
-3. Review whether all PDFs must ship in the initial static artifact.
-4. Lazy-load media below the fold.
-5. Rebuild and compare the same Vite output fields.
+Use `npm run preview -- --host 127.0.0.1`, then verify the page and resume asset load, all five illustrations render, and the mobile-width page has no horizontal overflow. These checks were completed for this build.
 
 ## Not Applicable
 
-- Server response-time objectives under load.
-- Requests per second or concurrent-user targets.
-- API, database, queue, or cache throughput.
-- Stress testing or autoscaling validation.
+- Request latency under server load, throughput, and concurrent-user targets.
+- API/database/cache stress and capacity tests.
+- Lighthouse performance thresholds; no controlled Lighthouse run or agreed threshold is part of this change.

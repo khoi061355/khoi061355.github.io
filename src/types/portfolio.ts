@@ -42,8 +42,8 @@ export type Profile = {
   slug: string;
   role: string;
   location: string;
-  email: string;
-  profileImage: string;
+  email?: string;
+  profileImage?: string;
   resume: DownloadLink;
   summary: string;
   socialLinks: ExternalLink[];
@@ -103,6 +103,12 @@ export type AwardEntry = {
 };
 
 export type ProjectEntry = {
+  imageCaption?: string;
+  role?: string;
+  status?: string;
+  period?: string;
+  sourceNote?: string;
+  details?: string[];
   id: string;
   title: string;
   description: string;
@@ -116,6 +122,11 @@ export type ProjectEntry = {
 };
 
 export type GalleryItem = {
+  aspectRatio?: number;
+  rotation?: 0 | 90 | -90 | 180;
+  additionalPages?: string[];
+  issuer?: string;
+  year?: string;
   id: string;
   src: string;
   alt: string;

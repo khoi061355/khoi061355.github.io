@@ -1,29 +1,35 @@
 # Integration Test Instructions
 
-## Purpose
+## Scope
 
-Verify that the application shell, Business presentation, shared data, routes, and journal pages work together after the README and contact-color amendment.
+This is a static React application with no backend services, database, or API contracts. The application-level integration test renders the App shell together with portfolio data, the Bioengineering presentation, and shared UI behavior.
 
-## Run the Rendered Integration Group
+## Automated Rendered-Application Test
+
+Run:
 
 ```bash
-npx vitest run src/App.test.tsx src/templates/journalPostPages.test.tsx src/templates/business/businessTemplate.test.tsx
+npx vitest run src/App.test.tsx
 ```
 
-Expected verified result: 3 files and 39 tests pass.
+The verified result is 8 tests passing. The complete `npm test` run also executes this file and the data, registry, layout, and accessibility regression tests.
 
-## Test Inventory
+## Production-Preview Smoke Check
 
-| File                                               | Main responsibility                                                   |
-| -------------------------------------------------- | --------------------------------------------------------------------- |
-| `src/App.test.tsx`                                 | Application rendering, navigation, style switching, and shared routes |
-| `src/templates/journalPostPages.test.tsx`          | Journal list/detail rendering and route behavior                      |
-| `src/templates/business/businessTemplate.test.tsx` | Business sections, contact content, project media, and presentation   |
+1. Build the static site with `npm run build`.
+2. Start the preview with `npm run preview -- --host 127.0.0.1`.
+3. Open the URL printed by Vite.
+4. Verify the page title and Bioengineering content, section navigation, theme control, mobile menu, contact placeholder, and resume download.
+5. Confirm the page has no horizontal overflow at a narrow viewport and all five project/hero illustrations load.
 
-## Manual Responsive Check
+The verified preview returned HTTP 200 for `/`; the resume returned HTTP 200, all 5 of 5 images loaded, and the inspected 312-pixel browser viewport had no horizontal overflow.
 
-Run `npm run dev`, then check Engineering and Business in light and dark modes. In Business, confirm the Direct Contact card matches nearby surfaces and retains readable email and social controls at desktop and narrow widths.
+## Not Applicable
+
+- Integration with external services or APIs: none exist.
+- Separate browser automation: no dedicated browser automation suite is configured.
+- Service endpoint setup or cleanup: not required.
 
 ## Failure Recovery
 
-Run only the failing file first, fix the earliest assertion or render error, and then rerun `npm run test` so shared behavior remains protected.
+Run the failing test file first, fix the earliest assertion or render issue, and then rerun `npm test` and the production-preview smoke check.

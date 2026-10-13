@@ -1,61 +1,59 @@
-import profileImage from '../assets/profile.jpeg'
-import resumePdf from '../assets/documents/resume.pdf'
-import type { HeroSection, Profile } from '../types/portfolio'
+import resumeDocument from "../assets/Resume - Lê Nguyên Khôi.docx?url"
+import type { Profile } from '../types/portfolio'
 
 export const profile = {
-  name: 'Nham Quoc Hung',
-  slug: 'nham-quoc-hung',
-  role: 'Data Engineer at Torilab Inc.',
-  location: 'Hanoi Capital Region, Vietnam',
-  email: 'nhamhung.gttn@gmail.com',
-  profileImage,
-  resume: {
-    label: 'Download Resume',
-    href: resumePdf,
-    fileName: 'Nham-Quoc-Hung-Resume.pdf',
-    ariaLabel: 'Download Nham Quoc Hung resume PDF',
+  "name": "Lê Nguyên Khôi",
+  "slug": "le-nguyen-khoi",
+  "role": "Biology student · aspiring bioengineer",
+  "location": "Hanoi, Vietnam",
+  "email": "",
+  "profileImage": "",
+  "resume": {
+    "label": "Download résumé",
+    "href": resumeDocument,
+    "fileName": "Le-Nguyen-Khoi-Resume.docx",
+    "ariaLabel": "Download Lê Nguyên Khôi résumé (Word document)"
   },
-  summary:
-    'I am a Computer Science graduate with a specialisation in Data and passion for teaching. In a world being increasingly influenced and shaped by technological advances, these domains are my way of navigating through present complexities and making sense of what is coming next.',
-  socialLinks: [
-    {
-      label: 'GitHub',
-      href: 'https://github.com/nhamhung',
-      ariaLabel: 'Open Nham Quoc Hung GitHub profile',
-    },
-    {
-      label: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/quoc-hung-nham/',
-      ariaLabel: 'Open Nham Quoc Hung LinkedIn profile',
-    },
-    {
-      label: 'Email',
-      href: 'mailto:nhamhung.gttn@gmail.com',
-      ariaLabel: 'Email Nham Quoc Hung',
-    },
-  ],
+  "summary": "I’m curious about the smallest living systems—and the possibilities they open up. Through microbiology, computational modelling and practical entrepreneurship, I’m exploring how science can become something useful.",
+  "socialLinks": []
 } satisfies Profile
 
+import type { HeroSection } from '../types/portfolio'
 export const hero = {
-  eyebrow: '<engineer id="nham-quoc-hung" />',
-  statusBadges: ['SYSTEM STATUS: BUILDING', 'DATA | SOFTWARE | MENTORSHIP'],
-  headline: 'Building reliable data pipelines and scalable data platforms.',
-  highlightedPhrase: 'data pipelines',
-  intro: profile.summary,
-  stats: [
-    { value: '4+ Years', label: 'Experience' },
-    { value: 'Data + Teaching', label: 'Focus' },
-    { value: 'Everything Data-related', label: 'Coverage' },
+  "eyebrow": "BIOENGINEERING · BIOTECH ENTREPRENEURSHIP",
+  "statusBadges": [
+    "Student researcher",
+    "Hanoi, Vietnam"
   ],
-  primaryAction: {
-    label: 'View Projects',
-    sectionId: 'projects',
-    ariaLabel: 'Scroll to selected projects',
+  "headline": "Small systems.\nMeaningful\npossibilities.",
+  "intro": "I’m curious about the smallest living systems—and the possibilities they open up. Through microbiology, computational modelling and practical entrepreneurship, I’m exploring how science can become something useful.",
+  "stats": [
+    {
+      "value": "Biology",
+      "label": "Academic foundation"
+    },
+    {
+      "value": "Microbiology",
+      "label": "Research experience"
+    },
+    {
+      "value": "Entrepreneurship",
+      "label": "A practical curiosity"
+    }
+  ],
+  "primaryAction": {
+    "label": "Explore my work",
+    "sectionId": "projects",
+    "ariaLabel": "Explore selected research and projects"
   },
-  secondaryAction: {
-    label: 'Contact',
-    sectionId: 'contact',
-    ariaLabel: 'Scroll to contact section',
+  "secondaryAction": {
+    "label": "Supporting evidence",
+    "sectionId": "gallery",
+    "ariaLabel": "View supporting evidence"
   },
-  stackHighlights: ['Big Data', 'Data Analytics', 'Data Science', 'Data Engineering', 'Machine Learning', 'Deep Learning'],
+  "stackHighlights": [
+    "Living systems",
+    "Quantitative thinking",
+    "Ideas into action"
+  ]
 } satisfies HeroSection

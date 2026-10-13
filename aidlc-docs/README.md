@@ -1,28 +1,21 @@
-# AI-DLC Documentation Index
+# Portfolio Documentation
 
-## Active Change
+The active workflow is the portfolio restart for Lê Nguyên Khôi. Earlier customization and foundation-workflow records are historical; their implementation/approval statuses do not govern this restart.
 
-- **Change**: Business Color and Two-Theme Refresh
-- **Requirement questions**: `inception/requirements/business-youthful-color-refresh-requirement-questions.md`
-- **Requirements**: `inception/requirements/business-youthful-color-refresh-requirements.md`
-- **Execution plan**: `inception/plans/business-youthful-color-refresh-execution-plan.md`
-- **Code-generation plan**: `construction/plans/business-youthful-color-refresh-code-generation-plan.md`
-- **Code-generation summary**: `construction/business-youthful-color-refresh/code/code-generation-summary.md`
-- **Current reverse engineering**: `inception/reverse-engineering/`
-- **Build and Test guidance**: `construction/build-and-test/`
-- **State**: `aidlc-state.md`
-- **Append-only audit history**: `audit.md`
+## Active artifacts
 
-## Current Product Boundary
+- State: aidlc-state.md.
+- Requirements: inception/requirements/portfolio-restart-requirements.md.
+- Stories and personas: inception/user-stories/portfolio-restart-stories.md and portfolio-restart-personas.md.
+- Execution plan: inception/plans/portfolio-restart-execution-plan.md.
+- Code plan: construction/plans/portfolio-restart-code-generation-plan.md.
+- Source map, implementation summary and maintenance guide: construction/portfolio-restart/code/.
+- Audit: audit.md, append-only.
 
-- Engineering and Business are the complete supported template set.
-- Business uses the approved background and text palettes.
-- Shared content, routes, layout modes, color mode, and GitHub Pages behavior remain authoritative.
+Code Generation is complete and awaiting review. The implementation passed 32 tests, lint and production build, plus local browser smoke checks. The formal Build and Test stage follows only after Code Generation review approval. Existing build-and-test documents from earlier workflows are historical until the active stage refreshes them.
 
-## Documentation Controls
+Application code remains at the workspace root under src/, public/ and index.html. Documentation is kept here. Original résumé and Evidence Library inputs are preserved.
 
-- Update active artifacts instead of creating duplicate revisions.
-- Keep implementation details in application code and tests; documentation records scope, decisions, and verification evidence.
-- Keep `aidlc-state.md` focused on the active workflow and concise historical status.
-- Keep `audit.md` append-only and complete; it is the required immutable historical record.
-- Create additional design artifacts only when an approved stage requires them.
+## Design review previews
+
+Three local comparison options are ready at http://127.0.0.1:4174/?preview=themes. The selection file is construction/portfolio-restart/code/design-selection-questions.md. Latest tests: 39 passing; lint/build and browser checks passed. Venture Studio was subsequently selected and refined; the public root preview is http://127.0.0.1:4174/. Latest verification: 40 tests, lint/build and browser checks passed. Six evidence cards remain.

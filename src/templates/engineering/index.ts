@@ -19,15 +19,15 @@ export const engineeringChapterLabels = {
   education: "Education",
   experience: "Experience",
   awards: "Awards",
-  projects: "Projects",
-  gallery: "Gallery",
+  projects: "Research",
+  gallery: "Evidence",
   journal: "Journal",
-  skills: "Skills",
+  skills: "Methods",
   contact: "Contact",
 } satisfies PortfolioTemplate["chapterLabels"];
 
 export const engineeringTemplate = {
-  ...portfolioTemplateOptions.engineering,
+  ...portfolioTemplateOptions.bioengineering,
   ShellComponent: EngineeringShell,
   JournalPostComponent: JournalPostPage,
   chapterLabels: engineeringChapterLabels,

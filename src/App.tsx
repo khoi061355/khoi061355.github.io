@@ -1,106 +1,33 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from 'react'
+import './App.css'
+import { navigation } from './data/portfolio'
+import { usePortfolioLayout } from './hooks/usePortfolioLayout'
+import { activePortfolioTemplate as template } from './templates'
+import { parseJournalPostHash } from './utils/journal'
+import { getEnabledNavigationItems, getEnabledSectionIds, useActiveSection } from './utils/scroll'
 
-import "./App.css";
-import { navigation } from "./data/portfolio";
-import { selectedTemplateId } from "./data/template";
-import { usePortfolioLayout } from "./hooks/usePortfolioLayout";
-import { getPortfolioTemplate } from "./templates";
-import type { PortfolioTemplate, PortfolioTemplateId } from "./templates/types";
-import { parseJournalPostHash } from "./utils/journal";
-import {
-  getEnabledNavigationItems,
-  getEnabledSectionIds,
-  useActiveSection,
-} from "./utils/scroll";
-import {
-  getInitialPortfolioTemplateId,
-  persistPortfolioTemplateId,
-} from "./utils/templateSelection";
-
-type PortfolioAppProps = {
-  initialTemplate?: PortfolioTemplate;
-};
-
-export function PortfolioApp({ initialTemplate }: PortfolioAppProps) {
-  const [activeTemplateId, setActiveTemplateId] = useState<PortfolioTemplateId>(
-    () =>
-      getInitialPortfolioTemplateId(initialTemplate?.id ?? selectedTemplateId),
-  );
-  const [locationHash, setLocationHash] = useState(() => window.location.hash);
-  const template = getPortfolioTemplate(activeTemplateId);
-  const enabledNavigationItems = useMemo(
-    () => getEnabledNavigationItems(navigation, template.isSectionVisible),
-    [template],
-  );
-  const enabledSectionIds = useMemo(
-    () => getEnabledSectionIds(enabledNavigationItems),
-    [enabledNavigationItems],
-  );
-  const sectionComponents = template.sectionComponents;
-  const scrollActiveSection = useActiveSection(enabledSectionIds);
-  const {
-    layoutMode,
-    activeSection,
-    activePageSection,
-    isMultiPageLayout,
-    getNavigationHref,
-    navigateToSection,
-    toggleLayoutMode,
-  } = usePortfolioLayout(enabledSectionIds, scrollActiveSection);
-
-  useEffect(() => {
-    const syncLocationHash = () => setLocationHash(window.location.hash);
-
-    window.addEventListener("hashchange", syncLocationHash);
-    window.addEventListener("popstate", syncLocationHash);
-
-    return () => {
-      window.removeEventListener("hashchange", syncLocationHash);
-      window.removeEventListener("popstate", syncLocationHash);
-    };
-  }, []);
-
-  const localJournalPostSlug = parseJournalPostHash(locationHash);
-  const visibleSectionIds = isMultiPageLayout
-    ? [activePageSection]
-    : enabledSectionIds;
-  const ShellComponent = template.ShellComponent;
-  const JournalPostComponent = template.JournalPostComponent;
-  const shellActiveSection = localJournalPostSlug ? "journal" : activeSection;
-  const selectTemplate = useCallback((templateId: PortfolioTemplateId) => {
-    const resolvedTemplateId = getPortfolioTemplate(templateId).id;
-
-    persistPortfolioTemplateId(resolvedTemplateId);
-    setActiveTemplateId(resolvedTemplateId);
-  }, []);
-  const selectedContent = localJournalPostSlug ? (
-    <JournalPostComponent slug={localJournalPostSlug} />
-  ) : (
-    visibleSectionIds.map((sectionId) => {
-      const SectionComponent = sectionComponents[sectionId];
-
-      return <SectionComponent key={sectionId} />;
-    })
-  );
-
-  return (
-    <ShellComponent
-      activeSection={shellActiveSection}
-      activeTemplateId={activeTemplateId}
-      getNavigationHref={getNavigationHref}
-      layoutMode={layoutMode}
-      navigationItems={enabledNavigationItems}
-      onNavigate={navigateToSection}
-      onSelectTemplate={selectTemplate}
-      onToggleLayoutMode={toggleLayoutMode}
-    >
-      {selectedContent}
-    </ShellComponent>
-  );
+export function PortfolioApp() {
+ const items = useMemo(() => getEnabledNavigationItems(navigation), [])
+ const ids = useMemo(() => getEnabledSectionIds(items), [items])
+ const active = useActiveSection(ids)
+ const layout = usePortfolioLayout(ids, active)
+ useEffect(() => {
+  if (layout.isMultiPageLayout) {
+   document.getElementById(layout.activePageSection)?.scrollIntoView({behavior:'auto', block:'start'})
+  }
+ }, [layout.isMultiPageLayout, layout.activePageSection])
+ const [hash, setHash] = useState(() => window.location.hash)
+ useEffect(() => {
+  const sync = () => setHash(window.location.hash)
+  window.addEventListener('hashchange',sync); window.addEventListener('popstate',sync)
+  return () => { window.removeEventListener('hashchange',sync); window.removeEventListener('popstate',sync) }
+ }, [])
+ const slug = parseJournalPostHash(hash)
+ const Shell = template.ShellComponent
+ const JournalPage = template.JournalPostComponent
+ const visible = layout.isMultiPageLayout ? [layout.activePageSection] : ids
+ return <Shell activeSection={layout.activeSection} layoutMode={layout.layoutMode} navigationItems={items} getNavigationHref={layout.getNavigationHref} onNavigate={layout.navigateToSection} onToggleLayoutMode={layout.toggleLayoutMode}>
+ {slug ? <JournalPage slug={slug}/> : visible.map(id => { const Section = template.sectionComponents[id]; return <Section key={id}/> })}
+ </Shell>
 }
-
-function App() {
-  return <PortfolioApp />;
-}
-
-export default App;
+export default function App() { return <PortfolioApp/> }
