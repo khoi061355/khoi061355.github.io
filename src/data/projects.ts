@@ -25,7 +25,6 @@ export const projects = [
     "role": "Research assistant",
     "status": "Supervised laboratory experience",
     "period": "Summer 2026",
-    "sourceNote": "Supported by the institute’s internship confirmation.",
     "details": [
       "Prepared culture media and participated in bacterial cultivation.",
       "Supported rapid-test development and aquaculture water-quality research."
@@ -49,7 +48,6 @@ export const projects = [
     "role": "Oxford Saïd Global Climate Tech Challenge contestant",
     "status": "Challenge concept",
     "period": "2026",
-    "sourceNote": "Concept description drawn from the résumé.",
     "details": [
       "Monitor pH, temperature, dissolved oxygen, salinity and ammonia.",
       "Combine cloud analysis, programmable timers and app-based approval for proposed treatment."
@@ -73,10 +71,9 @@ export const projects = [
     "role": "Independent analysis author",
     "status": "Computational project",
     "period": "2026",
-    "sourceNote": "Résumé-reported results; not independently reproduced here.",
     "details": [
       "100,864 shots across 3,961 matches; validation on 811 held-out matches.",
-      "Reported ROC-AUC: 0.816; log loss: 0.2604. No report or application URL was supplied."
+      "Model performance: ROC-AUC 0.816; log loss 0.2604."
     ]
   },
   {
@@ -103,10 +100,9 @@ export const projects = [
     "role": "EthicsAI Challenge author",
     "status": "Research writing",
     "period": "2026",
-    "sourceNote": "Writing described in the résumé. The supplied PDF is a service certificate; the paper itself was not provided.",
     "details": [
       "Examined AI hallucinations through case studies including Mata v. Avianca.",
-      "The associated EthicWise AI certificate records three volunteer-service hours in June 2026."
+      "Contributed three hours of volunteer service with EthicWise AI in June 2026."
     ]
   },
   {
@@ -127,7 +123,6 @@ export const projects = [
     "role": "Co-founder",
     "status": "Sports-retail venture",
     "period": "Mar 2025",
-    "sourceNote": "Venture responsibilities described in the résumé.",
     "details": [
       "Sourced basketball gear with accessibility and affordability in mind.",
       "Developed practical business experience to carry into future scientific ventures."

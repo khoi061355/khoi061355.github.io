@@ -24,7 +24,7 @@ export const sectionContent = {
   "awards": {
     "eyebrow": "RECOGNITION",
     "title": "Milestones along the way.",
-    "description": "A selection of academic and sporting achievements, with supporting documents where available."
+    "description": "Academic achievement, team leadership and milestones on the court."
   },
   "skills": {
     "eyebrow": "METHODS & INTERESTS",

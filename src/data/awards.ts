@@ -13,7 +13,7 @@ export const awards = [
     "title": "Consolation prize · English",
     "organization": "Ba Đình district Grade 9 competition",
     "year": "2023",
-    "description": "Selected to represent the school in a district-level cultural and scientific subjects competition. The certificate identifies English as the subject.",
+    "description": "Selected to represent the school in a district-level cultural and scientific subjects competition. Recognized for achievement in English.",
     "logoText": "EN",
     "tag": "Academics"
   },
@@ -21,7 +21,7 @@ export const awards = [
     "title": "Hanoi Supercup champion",
     "organization": "VietGoal · U15 Trung Văn",
     "year": "2023",
-    "description": "Team captain; subsequent bronze medals in 2024 and 2025, as reported in the résumé.",
+    "description": "Team captain; subsequent bronze medals in 2024 and 2025.",
     "logoText": "VG",
     "tag": "Leadership"
   },
@@ -29,7 +29,7 @@ export const awards = [
     "title": "ProJET Season 1 champion",
     "organization": "JunSport basketball tournament",
     "year": "Date not specified",
-    "description": "Contributed rebounds and scoring plays to a basketball championship team, as reported in the résumé.",
+    "description": "Contributed rebounds and scoring plays to a basketball championship team.",
     "logoText": "PJ",
     "tag": "Sport"
   }

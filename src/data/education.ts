@@ -15,7 +15,7 @@ export const education = [
   }
 ] satisfies EducationEntry[]
 
-// Academic results reported in the supplied résumé.
+// Shared academic highlights for the introduction and education sections.
 export const academicHighlights = [
  {value:'9.4/10', label:'GPA · Grades 10 & 11'},
  {value:'A · A · A', label:'AS Level · Biology, Chemistry & Maths'},

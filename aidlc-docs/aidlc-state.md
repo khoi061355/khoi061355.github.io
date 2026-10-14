@@ -18,6 +18,9 @@
 - Source résumé and evidence archive preserved. Audit preserved append-only.
 - Summary: aidlc-docs/construction/portfolio-restart/code/code-generation-summary.md
 - Selected design: Biotech Venture Studio.
+- Selected Work alignment: consistent description/detail type and spacing, with native accent-colored bullets and hanging indentation for clear wrapped lines. Production build passes after bullet revision.
+- Readability revision: larger reading text, supporting labels and controls; responsive layout verified at 320/390/768/1440px.
+- Visitor copy: resume-provenance remarks removed from project, award and academic text; resume download and project status labels retained. Final build and all 40 tests pass.
 - Next: user Code Generation review, then formal Build and Test.
 - Design selection: aidlc-docs/construction/portfolio-restart/code/design-selection-questions.md
 - Live local comparison: http://127.0.0.1:4174/?preview=themes

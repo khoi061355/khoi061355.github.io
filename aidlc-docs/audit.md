@@ -9669,3 +9669,56 @@ file: /home/runner/work/khoi061355.github.io/khoi061355.github.io/src/data/profi
 **Context**: User-requested build correction verified; plan steps 19–21 complete.
 
 ---
+
+## Code Generation Review — Typography Enhancement
+**Timestamp**: 2026-10-14T15:43:02Z
+**User Input**: "the text in this website is slightly small, can you enhance them? "
+**AI Response**: "Increase body, supporting text and controls in place, retain the selected Venture Studio hierarchy, and check responsive wrapping/build. Resume the existing Code Generation review revision. Security Baseline and Property-Based Testing skipped because disabled."
+**Context**: User-requested readability improvement; existing local checkout, no publishing.
+
+---
+
+## Code Generation Review — Visitor-Facing Copy
+**Timestamp**: 2026-10-14T15:44:12Z
+**User Input**: "Also, remove all words which mention mentioned from resume, just treat this as a final portfolio version communicating with the website reader/viewer directly "
+**AI Response**: "Remove resume-provenance/editorial remarks from visitor copy, retain the resume download, preserve project maturity and accurate certificate labels, and update affected content checks."
+**Context**: Additional scope within typography review revision.
+
+---
+
+## Typography and Visitor Copy Verification
+**Timestamp**: 2026-10-14T15:44:39Z
+**AI Response**: "Implemented larger typography and removed resume-provenance remarks from visitor content. Checked all nine sections at 320/390/768/1440px in local Chrome: no horizontal overflow or runtime exceptions; desktop/mobile screenshots inspected. Final 40 tests and production build pass; existing bundle warning remains. git diff --check passes. Plan steps 22–26 completed. Disabled extensions N/A; plain Markdown and existing CSS/TS syntax validated. No commit or deployment."
+**Context**: Requested revisions complete locally; existing portfolio workflow review retained.
+
+---
+
+## Selected Work Alignment Revision
+**Timestamp**: 2026-10-14T16:36:17Z
+**User Input**: "Make the text properly aligned for selected work"
+**AI Response**: "Inspect the supplied screenshot and remove the detail-list indentation; align descriptions and details to one left edge with consistent type size and line height. Preserve semantic lists and responsive layout."
+**Context**: User attached a screenshot showing indented Selected Work details. Existing Code Generation review correction.
+
+---
+
+## Selected Work Alignment Verification
+**Timestamp**: 2026-10-14T16:36:43Z
+**AI Response**: "Removed list padding and markers; descriptions and details share a left edge, 17px text and 1.75 line height. Retained accessible list semantics. Browser measurements across all five cards at 320/768/1440px confirmed zero offset, matching font sizes and no horizontal overflow. Production build passes with existing bundle-size warning. Optional extensions N/A (disabled). No publishing."
+**Context**: Requested alignment fix complete; plan steps 27–28 completed.
+
+---
+
+## Selected Work Bullet Points
+**Timestamp**: 2026-10-14T16:40:13Z
+**User Input**: "Add bullet points for them for clarity"
+**AI Response**: "Add visible disc markers to Selected Work detail lists with hanging indentation and accent-colored markers. Preserve the enlarged text and line spacing."
+**Context**: User-requested CSS review revision; optional extensions disabled (N/A).
+
+---
+
+## Selected Work Bullet Verification
+**Timestamp**: 2026-10-14T16:40:26Z
+**AI Response**: "Added native disc markers with 1.25rem hanging indentation and accent coloring to every project detail list. Production build passed; existing bundle warning remains. Plan step 29 complete. No deployment."
+**Context**: Requested bullet styling complete.
+
+---

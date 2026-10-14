@@ -135,3 +135,27 @@ Security Baseline and Property-Based Testing remain disabled (N/A). Validate SVG
 - [x] 21. Run production build and existing tests; verify the emitted resume and update state/audit.
 
 Content validation: plain Markdown with checked paths and no diagrams. Both optional extensions remain disabled (N/A). This is a requested correction within the existing Code Generation review.
+
+## User-requested typography enhancement
+
+- [x] 22. Inspect typography and responsive layout rules; identify undersized body and supporting text.
+- [x] 23. Increase reading text to 17–18px, secondary text to 13–16px, and controls/labels; adjust wrapping at narrow widths.
+- [x] 24. Verify responsive rendering and production build; record results and update state.
+
+Content validation: plain Markdown, no diagrams. Both optional extensions remain disabled (N/A).
+
+- [x] 25. Remove resume-provenance notes and write direct visitor-facing project/award/academic copy; retain download actions and accurate project statuses.
+- [x] 26. Update affected assertions and run tests/build against final text.
+
+## Selected Work text alignment
+
+- [x] 27. Inspect screenshot and identify list padding and inconsistent description/detail type sizes.
+- [x] 28. Align descriptions/details to a shared left edge and verify responsive rendering/build.
+
+Content validation: existing CSS/TSX, plain Markdown, no diagrams. Optional extensions remain disabled (N/A).
+
+## Selected Work bullet points
+
+- [x] 29. Add visible native bullets with hanging indentation to project details and verify the production build.
+
+Content validation: existing CSS declarations and plain Markdown, no diagrams. Optional extensions N/A (disabled).

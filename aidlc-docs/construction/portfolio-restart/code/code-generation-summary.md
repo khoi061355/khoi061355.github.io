@@ -56,3 +56,9 @@ Replaced generic project artwork with XML-validated, clearly labeled vector proc
 Removed community-2025 and community-2026 from public gallery records/imports, leaving six evidence cards. Original source files and the archive remain preserved; their unimported images are absent from the production bundle. Other source-grounded community biography content remains.
 
 Verification: 40 tests across eight files passed, lint/build passed, Venture Studio loaded without comparison controls, all four academic highlights rendered, each project image retained its full aspect ratio, gallery count was six with both removed IDs absent, all nine chapter layouts fit 320 pixels, and no browser runtime exceptions were captured. Desktop/mobile/education/project screenshots are available in /private/tmp/khoi-venture-final-*.png. The existing non-blocking Vite warning remains (about 677.7 kB JS / 199.0 kB gzip). Local preview server remains available for user review. Security Baseline/PBT: N/A, disabled. Final Code Generation review remains pending.
+
+## Readability and final visitor copy revision
+
+Increased main reading text to 17–18px, supporting copy to 13–16px and enlarged navigation/buttons using rem units. Mobile header wraps when needed. Enlarged captions wrap within figure frames. Browser checks across all nine sections at 320, 390, 768 and 1440px showed no horizontal overflow or runtime exceptions; desktop and mobile screenshots inspected.
+
+Removed resume-provenance notes from projects, education and awards. Project maturity labels and the accurately named service-certificate link remain. Resume download remains available. Model metrics are presented directly. Source documentation remains internal. Updated content checks; 40 tests and production build passed. Existing bundle-size warning remains. Security Baseline and Property-Based Testing N/A (disabled).
