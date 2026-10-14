@@ -23,6 +23,7 @@
 - Live local comparison: http://127.0.0.1:4174/?preview=themes
 - Task-owned preview server session: 48606, retained for the requested interactive comparison.
 - Verification: 40 tests / 8 files, lint, production build and local Chromium checks passed after refinement.
+- Resume CI correction: ASCII asset filename le-nguyen-khoi-resume.docx removes NFC/NFD mismatch; document bytes preserved, production build and all 40 tests passed. Existing chunk-size warning remains.
 - Evidence: six selected records; final two community cards removed; originals preserved.
 - Live selected-design preview: http://127.0.0.1:4174/.
 

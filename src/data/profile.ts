@@ -1,4 +1,4 @@
-import resumeDocument from "../assets/Resume - Lê Nguyên Khôi.docx?url"
+import resumeDocument from "../assets/le-nguyen-khoi-resume.docx?url"
 import type { Profile } from '../types/portfolio'
 
 export const profile = {

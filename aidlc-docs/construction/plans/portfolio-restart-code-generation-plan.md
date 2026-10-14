@@ -127,3 +127,11 @@ The user selected Biotech Venture Studio and requested text alignment fixes, cle
 - [x] 18. Update preview screenshots, source/maintenance notes, state and audit; present the revised portfolio for review.
 
 Security Baseline and Property-Based Testing remain disabled (N/A). Validate SVG XML before writing; preserve original evidence and résumé.
+
+## User-requested Linux build correction
+
+- [x] 19. Diagnose the exact Git filename versus import encoding mismatch (NFC versus NFD).
+- [x] 20. Rename the resume asset to src/assets/le-nguyen-khoi-resume.docx, update src/data/profile.ts, and confirm unchanged document bytes.
+- [x] 21. Run production build and existing tests; verify the emitted resume and update state/audit.
+
+Content validation: plain Markdown with checked paths and no diagrams. Both optional extensions remain disabled (N/A). This is a requested correction within the existing Code Generation review.

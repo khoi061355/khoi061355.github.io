@@ -9626,3 +9626,46 @@ Retained from the prior recorded Requirements Analysis decision; no full extensi
 **Context**: Standard two-option Code Generation review; no deployment or push.
 
 ---
+
+## GitHub 403 Troubleshooting
+**Timestamp**: 2026-10-13T15:54:23Z
+**User Input**: "fatal: unable to access 'https://github.com/khoi061355/khoi061355.github.io.git/': The requested URL returned error: 403"
+**AI Response**: "Confirmed the remote URL and inspected credential-helper configuration without printing credentials. Git uses osxkeychain. Rechecked GitHub CLI status through approved read-only network access to distinguish sandbox failures from actual authentication errors. Active CLI account nhamhung is valid and has repository pull permission but push:false. Advise either granting that account collaborator write access or authenticating as the repository owner, then configuring Git to use CLI credentials and retrying the original operation. No account switch, remote change or push was performed."
+**Context**: Git authentication/access troubleshooting; portfolio workflow remains at Code Generation review.
+
+---
+
+## GitHub Account Selection Follow-up
+**Timestamp**: 2026-10-13T15:57:14Z
+**User Input**: "my upstream is already logged in"
+**AI Response**: "Confirmed khoi061355 is already authenticated but inactive. nhamhung remains the active CLI account and has push:false for the target repository. Git is now configured to use the GitHub CLI credential helper. Branch main tracks origin/main and is one commit ahead. Recommend gh auth switch --hostname github.com --user khoi061355, then retry the original command; no new login is required. No account switch or push was performed by the assistant."
+**Context**: Read-only authentication and permission diagnosis; portfolio review state unchanged.
+
+---
+
+## Code Generation Review Revision — Portable Resume Asset
+**Timestamp**: 2026-10-14T15:19:23Z
+**User Input**: "please fix this error:
+
+vite v7.3.0 building client environment for production...
+transforming...
+✓ 951 modules transformed.
+✗ Build failed in 1.82s
+error during build:
+Could not resolve "../assets/Resume - Lê Nguyên Khôi.docx?url" from "src/data/profile.ts"
+file: /home/runner/work/khoi061355.github.io/khoi061355.github.io/src/data/profile.ts
+    at getRollupError (file:///home/runner/work/khoi061355.github.io/khoi061355.github.io/node_modules/rollup/dist/es/shared/parseAst.js:401:41)
+    at error (file:///home/runner/work/khoi061355.github.io/khoi061355.github.io/node_modules/rollup/dist/es/shared/parseAst.js:397:42)
+    at ModuleLoader.handleInvalidResolvedId (file:///home/runner/work/khoi061355.github.io/khoi061355.github.io/node_modules/rollup/dist/es/shared/node-entry.js:21710:24)
+    at file:///home/runner/work/khoi061355.github.io/khoi061355.github.io/node_modules/rollup/dist/es/shared/node-entry.js:21670:26"
+**AI Response**: "Confirmed NFC tracked filename versus NFD import mismatch. Resume review revision: rename the asset to ASCII, update its import, preserve document bytes, and verify build/tests. Disabled extensions skipped (Security Baseline and Property-Based Testing)."
+**Context**: Existing portfolio workflow resumed; isolated user-requested build fix, no publishing.
+
+---
+
+## Code Generation Review Revision — Verification
+**Timestamp**: 2026-10-14T15:19:43Z
+**AI Response**: "Renamed the tracked resume asset to le-nguyen-khoi-resume.docx and updated its profile import. SHA256 and emitted DOCX bytes match the original. npm run build passed and all 40 tests in 8 files passed. Existing nonblocking chunk-size warning remains. No commit or push performed. Security Baseline and Property-Based Testing: N/A, disabled. Content validation: plain Markdown, no diagrams. Fix complete locally; existing formal portfolio review status retained."
+**Context**: User-requested build correction verified; plan steps 19–21 complete.
+
+---
