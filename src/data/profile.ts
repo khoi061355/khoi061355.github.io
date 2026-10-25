@@ -2,8 +2,8 @@ import resumeDocument from "../assets/le-nguyen-khoi-resume.docx?url"
 import type { Profile } from '../types/portfolio'
 
 export const profile = {
-  "name": "Lê Nguyên Khôi",
-  "slug": "le-nguyen-khoi",
+  "name": "Nguyen Le Khoi",
+  "slug": "nguyen-le-khoi",
   "role": "Biology student · aspiring bioengineer",
   "location": "Hanoi, Vietnam",
   "email": "",
@@ -11,8 +11,8 @@ export const profile = {
   "resume": {
     "label": "Download résumé",
     "href": resumeDocument,
-    "fileName": "Le-Nguyen-Khoi-Resume.docx",
-    "ariaLabel": "Download Lê Nguyên Khôi résumé (Word document)"
+    "fileName": "Nguyen-Le-Khoi-Resume.docx",
+    "ariaLabel": "Download Nguyen Le Khoi résumé (Word document)"
   },
   "summary": "I’m curious about the smallest living systems—and the possibilities they open up. Through microbiology, computational modelling and practical entrepreneurship, I’m exploring how science can become something useful.",
   "socialLinks": []

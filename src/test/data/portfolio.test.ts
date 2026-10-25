@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { portfolio } from '../../data/portfolio'
 describe('Source-grounded portfolio content',()=>{
  it('contains no old-owner biography, contacts or links',()=>{
-  expect(portfolio.profile.name).toBe('Lê Nguyên Khôi')
+  expect(portfolio.profile.name).toBe('Nguyen Le Khoi')
   expect(JSON.stringify(portfolio)).not.toMatch(/nhamhung|Nham Quoc Hung|Torilab|linkedin\.com\/in\/quoc/)
   expect(portfolio.profile.email).toBeFalsy()
   expect(portfolio.profile.socialLinks).toEqual([])

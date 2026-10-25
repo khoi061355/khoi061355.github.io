@@ -159,3 +159,11 @@ Content validation: existing CSS/TSX, plain Markdown, no diagrams. Optional exte
 - [x] 29. Add visible native bullets with hanging indentation to project details and verify the production build.
 
 Content validation: existing CSS declarations and plain Markdown, no diagrams. Optional extensions N/A (disabled).
+
+## Student details correction
+
+- [x] 30. Locate shared profile/education values and affected metadata/assertions; confirm the user-requested correction scope.
+- [x] 31. Update public name to Nguyen Le Khoi, GPA to 9.3/10 and AS Level Biology to Physics, including metadata, download label and existing assertions.
+- [x] 32. Run existing tests and production build; record verification and update workflow state.
+
+Existing Code Generation review revision, directly requested by the user. Preserve original supporting documents. Optional extensions N/A (disabled). Plain Markdown and existing TS/HTML syntax validated before editing.

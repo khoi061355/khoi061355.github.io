@@ -9722,3 +9722,18 @@ file: /home/runner/work/khoi061355.github.io/khoi061355.github.io/src/data/profi
 **Context**: Requested bullet styling complete.
 
 ---
+
+## Code Generation Review — Student Details Correction
+**Timestamp**: 2026-10-25T09:50:49Z
+**User Input**: "For nguyen le khoi, change GPA to 9.3 and AS Level from Biology to Physics, change student name to Nguyen Le Khoi"
+**AI Response**: "I’ll locate the student details and update the name, GPA, and AS Level subject. The portfolio uses shared data for the GPA and AS Level highlights. I’ll update those, change the name across the site and page metadata, and run the existing checks."
+**Context**: Existing React/Vite brownfield portfolio and approved Code Generation plan reused; user explicitly requests a review correction. Minimal requirements: display Nguyen Le Khoi, GPA 9.3/10, and AS Level Physics, Chemistry and Mathematics throughout the live site. Reuse architecture, stories and existing design; no new components or infrastructure. Security Baseline and Property-Based Testing skipped because disabled in aidlc-state.md (N/A). Plain Markdown and existing TS/HTML syntax; no diagrams.
+
+---
+
+## Student Details Verification
+**Timestamp**: 2026-10-25T09:51:03Z
+**AI Response**: "Updated the portfolio to Nguyen Le Khoi, GPA 9.3/10, and AS Level Physics, Chemistry and Mathematics. All 40 tests and production build pass."
+**Context**: Plan steps 30–32 completed. Existing build chunk-size advisory remains. Metadata, shared highlights, download name/accessible label and existing regression expectations updated; original document bytes preserved. No commit or deployment. Extensions N/A (disabled). git diff --check passed. Existing Code Generation review retained.
+
+---

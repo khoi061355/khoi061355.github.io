@@ -10,7 +10,7 @@ describe('Khôi portfolio visitor journeys',()=>{
  it('introduces the student, research and honest contact state',()=>{
   mount()
   expect(screen.getByRole('heading',{level:1})).toHaveTextContent('Small systems.')
-  expect(screen.getByTestId('navbar-brand-link')).toHaveTextContent('Lê Nguyên Khôi')
+  expect(screen.getByTestId('navbar-brand-link')).toHaveTextContent('Nguyen Le Khoi')
   expect(screen.getByTestId('portfolio-main')).toHaveAttribute('data-template-id','bioengineering')
   expect(screen.getByTestId('project-water-quality')).toHaveTextContent('Challenge concept')
   expect(screen.getByTestId('project-thehoophub')).toHaveTextContent('Sports-retail venture')
@@ -23,7 +23,7 @@ describe('Khôi portfolio visitor journeys',()=>{
  it('offers the original Word résumé with an accurate download label',()=>{
   mount()
   const link=screen.getByTestId('hero-resume-download')
-  expect(link).toHaveAttribute('download','Le-Nguyen-Khoi-Resume.docx')
+  expect(link).toHaveAttribute('download','Nguyen-Le-Khoi-Resume.docx')
   expect(link.getAttribute('href')).toContain('.docx')
   expect(link).toHaveAccessibleName(/résumé \(Word document\)/)
  })
@@ -102,7 +102,7 @@ describe('Three-design comparison mode',()=>{
 it('emphasizes the supplied academic profile in the introduction and education',()=>{
  mount()
  const highlights=screen.getByRole('group',{name:'Academic profile highlights'})
- for(const value of ['9.4/10','A · A · A','1390','8.0'])expect(highlights).toHaveTextContent(value)
+ for(const value of ['9.3/10','A · A · A','1390','8.0'])expect(highlights).toHaveTextContent(value)
  expect(highlights).toHaveTextContent('Grades 10 & 11')
- expect(screen.getByTestId('education-section')).toHaveTextContent('Biology, Chemistry & Maths')
+ expect(screen.getByTestId('education-section')).toHaveTextContent('Physics, Chemistry & Maths')
 })

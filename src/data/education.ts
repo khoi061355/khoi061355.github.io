@@ -8,8 +8,8 @@ export const education = [
     "specialization": "Biology · Chemistry · Mathematics",
     "logo": "",
     "description": [
-      "Grade 10 and Grade 11 GPA: 9.4/10.",
-      "AS Level Biology, Chemistry and Mathematics: A in each subject.",
+      "Grade 10 and Grade 11 GPA: 9.3/10.",
+      "AS Level Physics, Chemistry and Mathematics: A in each subject.",
       "SAT: 1390 · IELTS: 8.0."
     ]
   }
@@ -17,8 +17,8 @@ export const education = [
 
 // Shared academic highlights for the introduction and education sections.
 export const academicHighlights = [
- {value:'9.4/10', label:'GPA · Grades 10 & 11'},
- {value:'A · A · A', label:'AS Level · Biology, Chemistry & Maths'},
+ {value:'9.3/10', label:'GPA · Grades 10 & 11'},
+ {value:'A · A · A', label:'AS Level · Physics, Chemistry & Maths'},
  {value:'1390', label:'SAT'},
  {value:'8.0', label:'IELTS'},
 ] satisfies import('../types/portfolio').Metric[]
