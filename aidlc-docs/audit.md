@@ -9737,3 +9737,42 @@ file: /home/runner/work/khoi061355.github.io/khoi061355.github.io/src/data/profi
 **Context**: Plan steps 30–32 completed. Existing build chunk-size advisory remains. Metadata, shared highlights, download name/accessible label and existing regression expectations updated; original document bytes preserved. No commit or deployment. Extensions N/A (disabled). git diff --check passed. Existing Code Generation review retained.
 
 ---
+
+## Code Generation Review — Motion and Subjects
+**Timestamp**: 2026-10-27T14:36:49Z
+**User Input**: "please add animation to the project where relevant and update the subject combination to biology, chemistry, mathematics"
+**AI Response**: "I’ll inspect the project and its workflow guidance, then identify where animations fit and where the subject combination needs updating."
+**Context**: Resume existing approved Code Generation review; latest correction supersedes previous subject request. Existing React/TypeScript/Vite structure and architecture reused. Both extensions skipped because disabled in current state (N/A).
+
+---
+
+## Code Generation Review — Motion and Subjects
+**Timestamp**: 2026-10-27T14:36:49Z
+**User Input**: "sorry, physics, biology, mathematics"
+**AI Response**: "I’ll use Physics, Biology, Mathematics. The project is already in its implementation review stage, so I’ll apply this correction alongside the animation refinements in the current workflow."
+**Context**: Resume existing approved Code Generation review; latest correction supersedes previous subject request. Existing React/TypeScript/Vite structure and architecture reused. Both extensions skipped because disabled in current state (N/A).
+
+---
+
+## Motion Revision Plan
+**Timestamp**: 2026-10-27T14:36:49Z
+**AI Response**: "The site has hover feedback but little entrance animation. I’ll add subtle reveals for headings and cards, a staggered hero entrance, and gentle feedback on links and controls. Motion will respect reduced-motion settings. I also found both subject labels in the shared education data and will make them consistent."
+**Context**: User-authorized implementation review revision; no new workflow or approval gate. Content validated as plain Markdown and existing TS/CSS with no diagrams.
+
+---
+
+## Motion and Subjects Verification
+**Timestamp**: 2026-10-27T14:39:30Z
+**AI Response**: "Updated subject combination to Physics, Biology, Mathematics and added restrained viewport entrances, hero staggering, menu/dialog entrances and control feedback. All 43 tests, lint, build and Chromium checks at 320/390/768/1440px passed. Reduced motion and chapter navigation verified without runtime errors. Existing bundle advisory remains."
+**Context**: Plan steps 33–35 complete. Optional extensions N/A (disabled). New hook tests validate lifecycle, preference changes and unsupported-browser fallback. Default sandbox denied local server bind and Chromium launch; sandbox escalation allowed local verification. Cached browser selected after default revision was unavailable. No publishing. Existing Code Generation review retained. Review options: Request Changes or Continue to Next Stage (Build and Test), as defined in .aidlc-rule-details/construction/code-generation.md.
+
+---
+
+## Code Generation Review — Living Systems Animation
+**Timestamp**: 2026-10-27T14:40:22Z
+**User Input**: "please add animation for this as well"
+**Attachment**: Screenshot of the Venture Studio Field Notes / Living Systems hero illustration, showing four cells, callouts and the biology/data/enterprise note.
+**AI Response**: "I’ll animate the cells in this illustration with gentle movement, keeping the labels steady and respecting reduced-motion settings."
+**Context**: Directly authorized revision in existing Code Generation review. Reuse existing SVG artwork and shared motion implementation; both optional extensions remain disabled (N/A).
+
+---

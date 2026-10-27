@@ -167,3 +167,19 @@ Content validation: existing CSS declarations and plain Markdown, no diagrams. O
 - [x] 32. Run existing tests and production build; record verification and update workflow state.
 
 Existing Code Generation review revision, directly requested by the user. Preserve original supporting documents. Optional extensions N/A (disabled). Plain Markdown and existing TS/HTML syntax validated before editing.
+
+## User-requested motion and subject correction
+
+- [x] 33. Inspect current shared subject values, motion rules and active workflow; reuse existing architecture and approved implementation review.
+- [x] 34. Set subject combination and AS Level highlights to Physics, Biology, Mathematics; add restrained viewport entrance animations and hover/focus feedback with reduced-motion and unsupported-browser fallback.
+- [x] 35. Verify motion lifecycle and content through relevant tests, lint and production build; update summary, state and audit.
+
+This is a directly authorized Code Generation review revision. Optional extensions remain disabled (N/A). Validate TS/CSS syntax and plain Markdown before writing; no diagrams or new dependencies.
+
+## Living Systems illustration animation
+
+- [x] 36. Identify the supplied screenshot as the existing Venture Studio hero SVG and inspect its cell/label structure.
+- [ ] 37. Group existing vector cells for gentle independent drift and pulse; render the trusted local SVG inline for CSS control, with a pause/resume control and reduced-motion fallback. Keep labels and callouts fixed.
+- [ ] 38. Verify pause/resume behavior, reduced motion and responsive rendering; run existing checks and update state/audit/summary.
+
+Existing user-requested Code Generation review revision. Security Baseline and Property-Based Testing N/A (disabled). Validate SVG XML and JSX/CSS structure before writing; no new dependency or bitmap generation.

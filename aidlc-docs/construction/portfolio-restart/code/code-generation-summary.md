@@ -62,3 +62,13 @@ Verification: 40 tests across eight files passed, lint/build passed, Venture Stu
 Increased main reading text to 17–18px, supporting copy to 13–16px and enlarged navigation/buttons using rem units. Mobile header wraps when needed. Enlarged captions wrap within figure frames. Browser checks across all nine sections at 320, 390, 768 and 1440px showed no horizontal overflow or runtime exceptions; desktop and mobile screenshots inspected.
 
 Removed resume-provenance notes from projects, education and awards. Project maturity labels and the accurately named service-certificate link remain. Resume download remains available. Model metrics are presented directly. Source documentation remains internal. Updated content checks; 40 tests and production build passed. Existing bundle-size warning remains. Security Baseline and Property-Based Testing N/A (disabled).
+
+## Motion and subject combination review revision
+
+Latest requested combination is Physics, Biology, Mathematics. Updated specialization, AS Level description and shared Hero/Education highlights in src/data/education.ts. Current public name remains Nguyen Le Khoi and GPA remains 9.3/10; original supporting files remain intact.
+
+Added src/hooks/useEntranceMotion.ts and integrated it into Hero and SectionShell. Headings, project/academic/evidence records and supporting compositions receive short, one-time viewport entrances. Elements stay visible before observation and in unsupported browsers. Individual translate preserves the tilted hero transform. Restrained transitions add action, navigation and document-preview feedback; menu and evidence-dialog openings animate briefly. Motion preferences are honored initially and when changed, with observer cleanup on unmount and immediate visibility for focused content. No new dependencies.
+
+Verification: 43 tests across nine files, lint, production build and git diff --check passed. Three motion tests cover observer lifecycle, reduced-motion changes and unsupported-browser fallback; existing academic checks cover the corrected combination. Local Chromium confirmed subjects, entrances and no horizontal overflow at 320/390/768/1440px, reduced-motion behavior and chapter navigation, without runtime errors. The cached browser executable was selected explicitly after the installed Playwright version requested an unavailable revision; Chromium and the preview required sandbox escalation. The temporary browser and preview server were stopped after verification. The existing Vite chunk advisory remains (677.96 kB JS / 199.17 kB gzip).
+
+Security Baseline: N/A, disabled. Property-Based Testing: N/A, disabled. Plain Markdown and TS/CSS content validated; no diagrams. Existing Code Generation review remains pending.

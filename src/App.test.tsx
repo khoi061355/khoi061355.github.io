@@ -104,5 +104,7 @@ it('emphasizes the supplied academic profile in the introduction and education',
  const highlights=screen.getByRole('group',{name:'Academic profile highlights'})
  for(const value of ['9.3/10','A · A · A','1390','8.0'])expect(highlights).toHaveTextContent(value)
  expect(highlights).toHaveTextContent('Grades 10 & 11')
- expect(screen.getByTestId('education-section')).toHaveTextContent('Physics, Chemistry & Maths')
+ expect(highlights).toHaveTextContent('Physics, Biology & Mathematics')
+ expect(screen.getByTestId('education-section')).toHaveTextContent('Physics, Biology & Mathematics')
+ expect(screen.getByTestId('education-section')).toHaveTextContent('Physics · Biology · Mathematics')
 })

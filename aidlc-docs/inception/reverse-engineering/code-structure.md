@@ -30,4 +30,6 @@ src/hooks/usePortfolioLayout.ts retains layout persistence and hash navigation. 
 
 ## Verification
 
-Eight test files cover App, Gallery, public content, navigation, layout helpers, template registry, stale journal routes and contrast. Standard commands are npm test, npm run lint and npm run build. Vite retains its existing non-blocking large-chunk warning. Actual results are in the active construction summary.
+Nine test files cover App, Gallery, public content, navigation, layout helpers, template registry, stale journal routes and contrast. Standard commands are npm test, npm run lint and npm run build. Vite retains its existing non-blocking large-chunk warning. Actual results are in the active construction summary.
+
+Motion: src/hooks/useEntranceMotion.ts observes static section content on mount and cleans up on unmount, honoring dynamic reduced-motion preferences. Hero and SectionShell attach its section ref; src/App.css supplies short entrances and interaction transitions. Content is visible without observer support. src/hooks/useEntranceMotion.test.tsx covers lifecycle, preference changes and fallback.

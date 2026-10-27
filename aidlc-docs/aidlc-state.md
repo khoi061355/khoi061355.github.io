@@ -18,14 +18,15 @@
 - Source résumé and evidence archive preserved. Audit preserved append-only.
 - Summary: aidlc-docs/construction/portfolio-restart/code/code-generation-summary.md
 - Selected design: Biotech Venture Studio.
-- Student details correction: public name Nguyen Le Khoi, GPA 9.3/10, AS Level Physics/Chemistry/Mathematics; shared highlights, education description, page metadata and download labels updated. All 40 tests and production build pass.
+- Student details correction: public name Nguyen Le Khoi, GPA 9.3/10, AS Level Physics/Biology/Mathematics; shared highlights, education description, page metadata and download labels updated. All 40 tests and production build pass.
 - Selected Work alignment: consistent description/detail type and spacing, with native accent-colored bullets and hanging indentation for clear wrapped lines. Production build passes after bullet revision.
 - Readability revision: larger reading text, supporting labels and controls; responsive layout verified at 320/390/768/1440px.
 - Visitor copy: resume-provenance remarks removed from project, award and academic text; resume download and project status labels retained. Final build and all 40 tests pass.
+- Motion and subject review revision: Physics/Biology/Mathematics in subject combination, AS Level copy and shared Hero/Education highlights. One-time viewport reveals, staggered hero, control/menu/dialog feedback, reduced-motion support and visible unsupported-browser fallback. All 43 tests, lint, production build and Chromium checks at 320/390/768/1440px pass. Existing bundle advisory remains.
 - Next: user Code Generation review, then formal Build and Test.
 - Design selection: aidlc-docs/construction/portfolio-restart/code/design-selection-questions.md
 - Live local comparison: http://127.0.0.1:4174/?preview=themes
-- Task-owned preview server session: 48606, retained for the requested interactive comparison.
+- Previous comparison preview session is no longer active; temporary motion verification server stopped after checks.
 - Verification: 40 tests / 8 files, lint, production build and local Chromium checks passed after refinement.
 - Resume CI correction: ASCII asset filename le-nguyen-khoi-resume.docx removes NFC/NFD mismatch; document bytes preserved, production build and all 40 tests passed. Existing chunk-size warning remains.
 - Evidence: six selected records; final two community cards removed; originals preserved.
