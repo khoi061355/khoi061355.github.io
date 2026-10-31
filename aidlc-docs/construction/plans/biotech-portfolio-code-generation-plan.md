@@ -122,3 +122,39 @@
 | BK-US-05 | 5, 6, 7, 11 |
 | BK-US-06 | 2, 8, 11 |
 | BK-US-07 | 1, 3, 5, 6, 9, 10, 11, 12 |
+
+## Evidence Library refresh and Living Systems animation — requested review revision
+
+Source archive: `src/assets/Evidence Library-20261031T142424Z-1-001.zip`, 16 files. Reuse existing approved requirements, stories, architecture and Code Generation review. The latest explicit request authorizes replacing matching evidence; keep unrelated records and existing removed community entries unchanged. No deployment authorized. Existing Security Baseline and PBT opt-outs remain N/A.
+
+- [x] R1. Locate Khoi workspace and new ZIP; inspect existing evidence, read archive photos and rendered PDF pages; identify replacement/addition mapping.
+- [x] R2. Replace internship, factory, and academic-award scans with new translated/source pages, add relevant supplied activity photos, and add sports/graduation evidence. Preserve original inputs and absent-but-still-applicable existing evidence. Keep previously removed community entries excluded.
+- [x] R3. Support mixed portrait/landscape multipage previews, per-page alt text/captions and correct orientations; preserve dialog zoom, close, keyboard focus and lazy loading.
+- [x] R4. Animate original Living Systems SVG cells and internal structures with lightweight CSS, fixed labels, pause/resume and reduced-motion static fallback across three existing design variants.
+- [x] R5. Verify affected data/dialog/motion behavior, existing suite and production build; review desktop/mobile, light/dark and reduced-motion previews.
+- [x] R6. Update provenance, code summary, state, checkboxes and standard code-completion review.
+
+### Evidence activation approval hold
+
+Automatic approval review rejected applying the new ZIP evidence because approval for the specific personal scans/photos and public website destination was insufficiently explicit. No evidence data, evidence assets, gallery source, or evidence tests were applied. New evidence changes remain staged under `/private/tmp/khoi-evidence-refresh/staged/`. R2 and R3 remain pending; R4 animation is independent and applied. Prepare a precise evidence manifest for user approval before attempting evidence activation again.
+
+### Revision verification and remaining steps
+
+- [x] R5a. Animation-only verification: 44 tests, lint, production build, three-design/theme/mobile/desktop browser checks and reduced motion.
+- [x] R5b. Evidence activation and gallery verification after specific public-use approval.
+- [x] Prepared exact evidence manifest and local sample previews in `evidence-library-public-use-approval-questions.md`.
+- [ ] R6 remains pending final evidence integration and code-completion review; partial summary saved as `construction/bioengineering-portfolio/code/evidence-refresh-and-animation-summary.md`.
+
+## All relevant illustrations — user-requested revision
+
+User requests animation and visual polish for all relevant illustrations, and explicitly approves the specific evidence manifest. Use the existing editable SVG diagram system; no generated bitmap substitutes. Preserve labels, concepts, facts, and evidence boundaries.
+
+- [x] I1. Apply only the approved 18 evidence assets and staged gallery/data changes; preserve originals, prior community exclusions and redacted graduation handling.
+- [x] I2. Refine and animate all five project diagrams: microbiology, water systems, football modelling, responsible AI and TheHoopHub. Add restrained depth, meaningful motion, and steady readable labels.
+- [x] I3. Integrate shared accessible inline SVG presentation with pause controls, reduced-motion fallback and viewport-aware playback. Preserve aspect ratios and all project facts.
+- [x] I4. Verify full tests, lint, production build, approved evidence previews/geometry, all illustration controls and mobile/theme/design/reduced-motion behavior.
+- [x] I5. Update source provenance, current documentation/state, plan checkboxes and code-completion review.
+
+### Completion status after explicit evidence approval
+
+User approval of the exact evidence list resolved the earlier activation hold. R1–R6 and I1–I5 are complete. Earlier pending-status paragraphs describe the historical hold only. All approved gallery changes and all relevant illustration refinements are now implemented locally and verified. Normal Code Generation completion review is pending in `evidence-and-illustrations-code-review-questions.md`; no deployment.

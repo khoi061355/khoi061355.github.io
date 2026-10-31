@@ -21,3 +21,9 @@ This replaces stale architecture descriptions of multiple public templates and a
 ## Review preview layer
 
 One public portfolio presentation remains. The user-requested ?preview=themes mode adds three radio-selectable visual directions without changing the registry or content: Editorial, Venture Studio and Research Atlas. The selected preview is encoded in the URL and root data attribute; default public rendering is the user-selected Venture Studio. Tokens propagate to portaled evidence dialogs. Theme selection is complete; Code Generation review is pending.
+
+## Approved evidence and illustration revision
+
+Gallery now contains ten records and 21 images. GalleryPage provides source-specific ratio, rotation, alt text and captions for mixed translated/original scans and activity photographs. The exact source selection and public-use approval are documented in the construction plan.
+
+ProjectIllustration renders only trusted repository-owned SVGs inline with prefixed pattern/marker/gradient IDs. CSS supplies diagram-specific movement; React state handles pause controls and observer/visibility events rather than animation frames. Project playback pauses outside the viewport or when the tab is hidden, and reduced motion remains static. Hero retains native SVG motion across three visual directions. No new runtime dependency, backend or deployment change.

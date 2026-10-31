@@ -34,7 +34,7 @@ export const sectionContent = {
   "gallery": {
     "eyebrow": "THE EVIDENCE LIBRARY",
     "title": "The work, with its receipts.",
-    "description": "Supporting documents for research, recognition and community involvement. Open a record to read the original evidence."
+    "description": "Supporting documents and supplied activity photographs for research, recognition and sport. Open a record to explore its evidence."
   },
   "journal": {
     "eyebrow": "WRITING",

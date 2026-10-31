@@ -33,3 +33,11 @@ src/hooks/usePortfolioLayout.ts retains layout persistence and hash navigation. 
 Nine test files cover App, Gallery, public content, navigation, layout helpers, template registry, stale journal routes and contrast. Standard commands are npm test, npm run lint and npm run build. Vite retains its existing non-blocking large-chunk warning. Actual results are in the active construction summary.
 
 Motion: src/hooks/useEntranceMotion.ts observes static section content on mount and cleans up on unmount, honoring dynamic reduced-motion preferences. Hero and SectionShell attach its section ref; src/App.css supplies short entrances and interaction transitions. Content is visible without observer support. src/hooks/useEntranceMotion.test.tsx covers lifecycle, preference changes and fallback.
+
+## Evidence and illustration additions
+
+- `src/components/shared/ProjectIllustration.tsx`: trusted inline project diagrams, unique SVG IDs, accessible playback controls and viewport/tab visibility handling.
+- `src/types/portfolio.ts`: GalleryPage metadata for page-specific document/photo geometry and captions.
+- `src/data/gallery.ts`: ten records and 21 selected previews from approved sources, with preserved prior exclusions.
+- `src/assets/evidence/`: 18 newly approved JPEG selections; original archives remain unbundled.
+- `src/assets/illustrations/`: eight existing SVGs refined/animated; no raster replacements or invented evidence.

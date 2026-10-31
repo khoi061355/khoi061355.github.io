@@ -9776,3 +9776,75 @@ file: /home/runner/work/khoi061355.github.io/khoi061355.github.io/src/data/profi
 **Context**: Directly authorized revision in existing Code Generation review. Reuse existing SVG artwork and shared motion implementation; both optional extensions remain disabled (N/A).
 
 ---
+
+## Evidence Library Refresh and Living Systems — Review Revision
+**Timestamp**: 2026-10-31T14:38:42Z
+**User Input**: "update the evidence for khoi's website using the new Evidence Library zip, replacing current evidence where applicable"
+**AI Response**: "I’ll locate Khoi’s website and the new Evidence Library ZIP, compare it with the current evidence, and check how the Living Systems graphic is built so I can animate it."
+**Context**: User also attached the Venture Studio Living Systems graphic. Located Khoi repository, separate from current Nguyen Vu workspace. Existing approved implementation review and prior animation request in audit reused; not restarting discovery. Loaded repository AGENTS.md, common rules, workspace/requirements guidance, extension opt-in files and architecture/component inventory. Both extensions explicitly disabled; skip enforcement, N/A. Latest explicit new ZIP request authorizes replacing applicable public evidence. Existing removed community records remain removed unless specifically reinstated. Original archives preserved.
+
+---
+
+## Evidence Library Refresh and Living Systems — Review Revision
+**Timestamp**: 2026-10-31T14:38:42Z
+**User Input**: "please also make this an animation"
+**AI Response**: "I’ll locate Khoi’s website and the new Evidence Library ZIP, compare it with the current evidence, and check how the Living Systems graphic is built so I can animate it."
+**Context**: User also attached the Venture Studio Living Systems graphic. Located Khoi repository, separate from current Nguyen Vu workspace. Existing approved implementation review and prior animation request in audit reused; not restarting discovery. Loaded repository AGENTS.md, common rules, workspace/requirements guidance, extension opt-in files and architecture/component inventory. Both extensions explicitly disabled; skip enforcement, N/A. Latest explicit new ZIP request authorizes replacing applicable public evidence. Existing removed community records remain removed unless specifically reinstated. Original archives preserved.
+
+---
+
+## Automatic Approval Review — Evidence Activation Rejected
+**Timestamp**: 2026-10-31T14:50:50Z
+**User Input**: "N/A"
+**AI Response**: "Automatic approval review blocked applying the ZIP evidence because it would make personal scans and photos available on the website, and it requires clearer approval for the specific files. I’ll finish the animation, which is unaffected, and prepare an exact evidence list for your approval."
+**Context**: Rejected action was applying 30 staged source/asset changes to Khoi’s repository. Stated reason: the action would publish multiple personal scans, translations, photos and graduation evidence from the ZIP; although the website update and animation are authorized, authorization does not clearly cover that specific sensitive payload and public destination. Do not bypass. No rejected command executed. Applied only the six independent animation/source-test files through a separate approved action. Evidence gallery/data/types/assets remain unchanged. Exact selection manifest and local previews prepared; explicit approval requested.
+
+---
+
+## Living Systems Animation — Verified Partial Completion
+**Timestamp**: 2026-10-31T14:50:50Z
+**User Input**: "N/A"
+**AI Response**: "The animation is working with pause/resume and reduced-motion support, and all 44 tests, lint, and the production build have passed. Browser checks also confirmed that the current evidence is unchanged. The page’s font reset enlarged the inline SVG labels; restored their original typography before final review."
+**Context**: XML validated all three native SVGs; all 44 tests and lint passed. Production build passed before/after typography correction. Browser matrix covers three designs, two themes, mobile/desktop and reduced motion. Current evidence remains six original records. Temporary browser tooling installed outside repository after old environment had lost its interpreter configuration; no runtime package changes. Native PDFKit rendering used after Swift module import failed. New document/photograph selections remain staged; removed community records not reinstated. Disabled extensions N/A. No publication.
+
+---
+
+## Evidence Library Public-Use Approval Prompt
+**Timestamp**: 2026-10-31T14:50:50Z
+**User Input**: "N/A"
+**AI Response**: "Living Systems animation is complete locally. Forty-four tests, lint, build and browser checks passed. Please approve the specific evidence list for use on Khoi’s public website. Automatic approval review rejected applying the ZIP evidence because clearer permission is required for these personal scans/photos to become public. No evidence has been replaced yet; nothing has been deployed."
+**Context**: Exact list and sample previews in construction/plans/evidence-library-public-use-approval-questions.md. User approval is required because of automatic action-review rejection, not because of disabled extension rules. Awaiting explicit response; no evidence activation.
+
+---
+
+## Illustration Refinements and Specific Evidence Approval
+**Timestamp**: 2026-10-31T14:54:33Z
+**User Input**: "add animation to all relevant illustrations, make them nicer if possible too"
+**AI Response**: "Thanks—your approval covers the listed evidence. I’ll apply those replacements and additions, then animate and refine the five project illustrations as well. The diagrams will remain clearly illustrative, and the documentary evidence will stay separate."
+**Context**: User explicitly approves the specific public-use manifest requested after automatic review rejection. This authorizes the listed 18 JPEG evidence selections and public website source integration, not deployment. Continue within approved code-review revision; disabled extensions N/A.
+
+---
+
+## Illustration Refinements and Specific Evidence Approval
+**Timestamp**: 2026-10-31T14:54:33Z
+**User Input**: "and yes i approve the evidence list"
+**AI Response**: "Thanks—your approval covers the listed evidence. I’ll apply those replacements and additions, then animate and refine the five project illustrations as well. The diagrams will remain clearly illustrative, and the documentary evidence will stay separate."
+**Context**: User explicitly approves the specific public-use manifest requested after automatic review rejection. This authorizes the listed 18 JPEG evidence selections and public website source integration, not deployment. Continue within approved code-review revision; disabled extensions N/A.
+
+---
+
+## Approved Evidence and All Illustrations — Implementation Complete
+**Timestamp**: 2026-10-31T15:07:00Z
+**User Input**: "N/A"
+**AI Response**: "The approved evidence is now integrated: matching scans have been replaced, relevant activity photos added, and unrelated evidence retained. All 45 tests, lint, and the production build pass. Browser checks passed for the approved evidence and five diagrams across existing designs, themes and mobile/desktop layouts. Visual review caught a transform issue that moved culture shapes outside the dish; corrected it and verified their positions."
+**Context**: User’s explicit approval resolved the previous automatic-review rejection. Applied exactly 18 approved evidence assets, maintaining the graduation omission and source-only administrative/community pages. No unlisted payload activated. Gallery now ten records/21 images. Refined all five authored project SVGs, preserving concept/source labels, and retained animation of three hero SVG variants. Added shared viewport/tab-aware playback and pause controls without a runtime dependency. All 45 tests, lint, production build, 12 design/theme/viewport cases plus three reduced-motion cases, all ten evidence previews/full-image geometry and three independent culture-coordinate checks passed. Eleven source photos match archive bytes. SVGs XML-valid; screenshots reviewed; diff checks passed. Disabled extensions N/A. No deployment.
+
+---
+
+## Code Generation Completion Review — Evidence and Illustrations
+**Timestamp**: 2026-10-31T15:07:00Z
+**User Input**: "N/A"
+**AI Response**: "Updated Khoi’s site locally with the approved evidence and polished animations for all relevant illustrations. Pause controls and reduced-motion support are included. All 45 tests, lint, build and browser checks passed. Request Changes or Continue to Next Stage (Build and Test)."
+**Context**: Current code summary and review question prepared; all implementation-plan checkboxes updated in the same interaction. Formal Build and Test transition still requires the repository’s explicit code-completion review. No commit, push or publication inferred.
+
+---

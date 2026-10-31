@@ -403,3 +403,63 @@
  .action:hover > span { translate: 2px -2px; }
  .next-section:hover > span, .hero-strip > a:hover > span { translate: 0 3px; }
 }
+
+/* Living Systems: animate native SVG geometry; callouts and labels remain stationary. */
+.hero-art svg { display: block; width: 100%; height: auto; }
+.hero-art svg text { font: 12px monospace; letter-spacing: normal; }
+[data-portfolio-design="venture"] .hero-art { overflow: hidden; border-radius: 0 0 16px 16px; }
+.figure-motion-controls { display: flex; align-items: center; gap: 12px; }
+.figure-motion-toggle { padding: 6px 9px; border: 1px solid var(--line-500); background: var(--control-bg-soft); color: var(--text-100); border-radius: 4px; font: 11px/1.5 monospace; cursor: pointer; }
+.figure-motion-toggle:focus-visible { outline: 2px solid var(--accent-300); outline-offset: 3px; }
+@keyframes living-drift { from { translate: 0 -3px; } to { translate: 2px 4px; } }
+@keyframes living-orbit { to { rotate: 360deg; } }
+@media (prefers-reduced-motion: no-preference) {
+ .living-cell { animation: living-drift 7s ease-in-out infinite alternate; }
+ .living-cell-1 { animation-duration: 9s; animation-delay: -3s; }
+ .living-cell-2 { animation-duration: 8s; animation-delay: -5s; }
+ .living-cell-3 { animation-duration: 10s; animation-delay: -2s; }
+ .cell-organelles { transform-box: fill-box; transform-origin: center; animation: living-orbit 75s linear infinite; }
+ .living-orbit { transform-origin: 360px 285px; animation: living-orbit 100s linear infinite; }
+}
+.hero-figure[data-motion="paused"] :is(.living-cell, .cell-organelles, .living-orbit) { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce) { .figure-motion-toggle { display: none; } }
+
+/* Project illustrations keep labels stationary and use conceptual, not measured, motion. */
+.project-art { width: 100%; }
+.project-art-graphic { aspect-ratio: 6 / 5; background: #17392b; }
+.project-art-graphic svg { display: block; width: 100%; height: auto; }
+.project-art-controls { display: flex; justify-content: flex-end; padding: 8px 12px; border-top: 1px solid var(--line-700); background: var(--surface-900); }
+@keyframes process-travel { to { stroke-dashoffset: -36; } }
+@keyframes specimen-breathe { from { scale: .94; } to { scale: 1.08; } }
+@keyframes diagnostic-scan { 0%, 100% { translate: 0 0; } 50% { translate: 0 28px; } }
+@keyframes sample-rise { from { translate: 0 2px; opacity: .35; } to { translate: 0 -9px; opacity: .7; } }
+@keyframes water-swell { from { translate: 0 0; } to { translate: 0 -4px; } }
+@keyframes ripple-drift { from { translate: -4px 0; } to { translate: 4px 0; } }
+@keyframes sensor-listen { from { scale: .85; opacity: .2; } to { scale: 1.28; opacity: .55; } }
+@keyframes shot-travel { 0%, 15% { translate: 0 0; opacity: 0; } 20% { opacity: 1; } 75% { translate: 150px -32px; opacity: 1; } 85%, 100% { translate: 150px -32px; opacity: 0; } }
+@keyframes review-scan { 0%, 100% { translate: 0 0; } 50% { translate: 0 76px; } }
+@keyframes check-reveal { 0%, 15% { stroke-dashoffset: 70; } 45%, 100% { stroke-dashoffset: 0; } }
+@keyframes basketball-rock { from { rotate: -6deg; translate: 0 -2px; } to { rotate: 6deg; translate: 0 2px; } }
+@keyframes bag-float { from { translate: 0 0; } to { translate: 0 -5px; } }
+@media (prefers-reduced-motion: no-preference) {
+ .process-flow { animation: process-travel 3s linear infinite; }
+ .micro-colony { transform-box: fill-box; transform-origin: center; animation: specimen-breathe 4s ease-in-out infinite alternate; }
+ .diagnostic-scan { animation: diagnostic-scan 5s ease-in-out infinite; }
+ .sample-bubble { animation: sample-rise 4s ease-in-out infinite alternate; }
+ .water-surface { animation: water-swell 5s ease-in-out infinite alternate; }
+ .water-ripple { animation: ripple-drift 6s ease-in-out infinite alternate; }
+ .sensor-signal, .shot-origin, .verification-halo { transform-box: fill-box; transform-origin: center; animation: sensor-listen 4s ease-in-out infinite alternate; }
+ .shot-ball { animation: shot-travel 6s ease-in-out infinite; }
+ .ai-scan { animation: review-scan 7s ease-in-out infinite; }
+ .ai-check { stroke-dasharray: 70; animation: check-reveal 7s ease-in-out infinite; }
+ .venture-ball { transform-origin: 220px 265px; animation: basketball-rock 7s ease-in-out infinite alternate; }
+ .venture-bag { animation: bag-float 6s ease-in-out infinite alternate; }
+}
+.project-art[data-playback="paused"] .illustration-motion { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce) {
+ .project-art-controls { display: none; }
+ .process-flow { stroke-dasharray: none; }
+ .shot-ball { opacity: 0; }
+}
+
+.evidence-dialog-header p { color: var(--text-300); }

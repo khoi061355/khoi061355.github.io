@@ -121,7 +121,16 @@ export type ProjectEntry = {
   actions: ExternalLink[];
 };
 
+export type GalleryPage = {
+  src: string;
+  alt: string;
+  aspectRatio: number;
+  rotation?: 0 | 90 | -90 | 180;
+  caption?: string;
+};
+
 export type GalleryItem = {
+  pages?: GalleryPage[];
   aspectRatio?: number;
   rotation?: 0 | 90 | -90 | 180;
   additionalPages?: string[];

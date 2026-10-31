@@ -181,3 +181,33 @@ The following state is retained as historical context, not the active restart wo
 - Update active artifacts instead of creating duplicate revisions.
 - Keep application code at the workspace root and documentation under `aidlc-docs/`.
 - Keep `audit.md` append-only and complete.
+
+## Active Review Revision — Evidence Library and Living Systems
+
+Latest audit and approved implementation review supersede the older Build and Test summary above. User requests applicable replacements from the new 31 October archive and animation of the existing Living Systems graphic. Code Generation review revision in progress, plan R1–R6. Prior community-evidence removal remains in force. Security Baseline/PBT disabled, N/A. No deployment.
+
+## Latest status — animation complete; evidence awaiting specific approval
+
+- [x] Living Systems cell/internal/ring motion, pause/resume and reduced-motion fallback implemented across existing designs.
+- [x] Forty-four tests, lint, production build and animation browser checks passed.
+- [x] ZIP reviewed and exact public evidence selection staged for review.
+- [ ] Evidence activation: blocked by automatic approval review until the user explicitly approves the listed personal scans/photos for public use.
+- Approval question: `construction/plans/evidence-library-public-use-approval-questions.md`.
+- Partial summary: `construction/bioengineering-portfolio/code/evidence-refresh-and-animation-summary.md`.
+- Active gallery still contains the original six records. No new evidence files or data applied. No deployment.
+- Current phase: CONSTRUCTION — authorized code-review revisions; optional extensions disabled/N/A.
+
+## Current Review — Approved Evidence and All Illustrations Complete
+
+This section supersedes the earlier evidence hold and stale stage summaries above.
+
+- [x] Explicit public-use evidence approval: user "and yes i approve the evidence list".
+- [x] Approved evidence integrated: ten records, 21 readable images, per-page orientation/ratio/captions; original inputs and prior exclusions preserved.
+- [x] Five project diagrams refined and animated; three Living Systems hero variants animated.
+- [x] Pause/resume, static reduced motion, and project viewport/tab-aware playback implemented.
+- [x] All 45 tests, lint, production build, design/theme/mobile/desktop browser matrix and independent culture-position checks passed.
+- [x] R1–R6 and I1–I5 plan checkboxes complete.
+- [ ] Code Generation completion review: `construction/plans/evidence-and-illustrations-code-review-questions.md`.
+- Current phase: CONSTRUCTION. Current stage: Code Generation complete — awaiting explicit completion review before formal Build and Test.
+- Current summary: `construction/bioengineering-portfolio/code/code-generation-summary.md`.
+- No commit, push or deployment. Security Baseline/PBT disabled, N/A.
